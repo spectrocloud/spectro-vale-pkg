@@ -6,7 +6,11 @@ help: ## Display this help
 
 
 
-spectrocloud: ## Create the spectrocloud package
+##@ Development
+
+zip: ## Create the spectrocloud package
+	./scripts/create_zip.sh
+	./scripts/create_zip.sh spectrocloud-docs-internal
 
 
 ## Management

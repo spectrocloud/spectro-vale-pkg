@@ -1,0 +1,28 @@
+{
+  "name": "spectro-vale-pkg",
+  "version": "1.0.0",
+  "description": "A custom Vale package containing rules and standards that adhere to the Spectro Cloud Style Guide",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spectrocloud/spectro-vale-pkg.git"
+  },
+  "keywords": [
+    "vale"
+  ],
+  "author": "spectro-cloud",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/spectrocloud/spectro-vale-pkg/issues"
+  },
+  "homepage": "https://github.com/spectrocloud/spectro-vale-pkg#readme",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9.0.11",
+    "semantic-release": "^24.0.0"
+  }
+}

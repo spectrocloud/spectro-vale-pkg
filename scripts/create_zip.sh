@@ -40,6 +40,7 @@ create_folder() {
 
 # Function to zip files in workbench folder
 # The function takes one argument. Allowed values are "spectrocloud" and "spectrocloud-docs-internal"
+# The expected folder structure is workbench/spectrocloud or workbench/spectrocloud-docs-internal
 zip_files() {
   cd  workbench/
   echo "Zipping files"
@@ -51,9 +52,19 @@ zip_files() {
   
 }
 
-check_and_remove_zips() {
-    local zip1="spectrocloud-docs-internal.zip"
-    local zip2="spectrocloud.zip"
+# Function to check and remove existing zip files
+# The function takes one argument. Allowed values are "spectrocloud" and "spectrocloud-docs-internal"
+# The function removes the existing zip files if present
+check_and_remove_zip() {
+
+  if [ $1  == "spectrocloud" ]; then
+    zip1="spectrocloud.zip"
+  elif [ $1  == "spectrocloud-docs-internal" ]; then
+    zip1="spectrocloud-docs-internal.zip"
+  else 
+    echo "Invalid package name"
+    exit 1
+  fi
 
     if [ -f "$zip1" ]; then
         echo "Removing $zip1"
@@ -66,7 +77,7 @@ check_and_remove_zips() {
     fi
 }
 
-check_and_remove_zips
+check_and_remove_zip $package_name
 create_folder
 copy_content $package_name
 zip_files $package_name
