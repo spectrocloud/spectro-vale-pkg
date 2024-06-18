@@ -7,7 +7,6 @@ help: ## Display this help
 init: ## Initialize the project
 	@echo "Initializing the project..."
 	npm ci
-	npx husky-init
 
 
 ##@ Development

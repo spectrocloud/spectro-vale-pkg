@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/spectrocloud/spectro-vale-pkg#readme",
   "scripts": {
-    "prepare": "husky"
+    "prepare": "husky && husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
