@@ -1,0 +1,21 @@
+# Copyright (c) Spectro Cloud
+# SPDX-License-Identifier: Apache-2.0
+
+extends: existence
+message: "Avoid using 'spectrocloud' outside of a URL format. Use 'Spectro Cloud' instead."
+level: error
+ignorecase: false
+nonword: true
+tokens:
+  - 'spectro cloud'
+  - 'SpectroCloud'
+  - 'SpectroCloud'
+  - 'Spectrocloud'
+  - 'Spectro cloud'
+  - 'spectro Cloud'
+scope: sentence
+exceptions:
+  - '\[mailto:[^@]*@spectrocloud\.com\]'
+  - '\w*\.spectrocloud\.\w*'
+  - '@spectrocloud\.com'
+  - '\[support@spectrocloud\.com\]'

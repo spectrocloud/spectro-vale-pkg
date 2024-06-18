@@ -2,3 +2,6 @@
 .DS_Store
 .vale/styles/*.zip
 node_modules/
+workbench/
+spectrocloud.zip
+spectrocloud-docs-internal.zip

@@ -1,0 +1,15 @@
+# Copyright (c) Spectro Cloud
+# SPDX-License-Identifier: Apache-2.0
+
+extends: substitution
+message: "Use gender-neutral pronouns. Use '%s' instead of '%s'."
+level: error
+ignorecase: true
+swap:
+  he: 'they'
+  him: 'them'
+  his: 'their'
+  she: 'they'
+  her: 'them'
+  'he/she': 'they'
+  '(?:)he': 'they'
