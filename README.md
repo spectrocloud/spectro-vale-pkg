@@ -10,7 +10,83 @@ This repository contains the Vale package for Spectro Cloud documentation. The p
 
 ## Usage
 
-TBD
+Use the following steps to use the Spectro Cloud Vale package in your documentation.
+
+1. Install Vale locally. You have multiple options to install Vale. For example, you can use Homebrew, Scoop, or Chocolatey. For more information, see the [Vale installation guide](https://vale.sh/docs/vale-cli/installation/).
+
+   ```shell
+   brew install vale
+   ```
+
+2. In the repository where you want to use the Spectro Cloud Vale package, create a `.vale.ini` file and add the following configuration:
+
+   ```yaml
+   StylesPath = vale/styles
+
+   MinAlertLevel = suggestion
+
+   Packages = https://github.com/spectrocloud/spectro-vale-pkg/releases/latest/download/spectrocloud-docs.zip
+   Vocab = spectrocloud-vocab
+
+   [*.md]
+   BasedOnStyles =  Vale, spectrocloud-docs
+   ```
+
+3. In the repository `.gitignore` file, add the following line to ignore the Vale package files:
+
+   ```shell
+   vale/styles/spectrocloud-docs/
+   vale/styles/config/vocabularies/spectrocloud-vocab
+   ```
+
+4. Initialize the Vale package in the repository:
+
+   ```shell
+   vale sync
+   ```
+
+5. In the `.github/workflows` directory, create a new file titled `vale.yaml` and add the following configuration:
+
+   ```yaml
+   name: Vale
+
+   on:
+     pull_request:
+     types: [opened, synchronize, reopened, ready_for_review]
+
+   concurrency:
+     group: vale-${{ github.ref }}
+     cancel-in-progress: true
+
+   jobs:
+     run-ci:
+       runs-on: ubuntu-latest
+       defaults:
+         run:
+           shell: bash
+       if: ${{ !github.event.pull_request.draft && github.actor != 'dependabot[bot]' && github.actor != 'dependabot-preview[bot]' }}
+       steps:
+         - run: exit 0
+
+     vale:
+       needs: [run-ci]
+       uses: spectrocloud/spectro-vale-pkg/.github/workflows/vale.yml@main
+   ```
+
+You are now ready to use the Spectro Cloud Vale package in your documentation. The Vale package will run on every pull request and provide feedback on the documentation.
+
+> [!TIP]
+> Pull Requests in draft mode will not trigger the writting checks. Make sure to mark the PR as ready for review to trigger the checks.
+
+If a pull request does not meet the standards, Vale will provide suggestions to improve the documentation.
+
+If you want to run Vale locally, use the following command.
+
+```shell
+vale path/to/your/file
+```
+
+A detailed output will show the suggestions and errors in the documentation.
 
 ## Contribution
 
