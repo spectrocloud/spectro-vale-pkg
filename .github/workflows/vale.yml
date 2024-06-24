@@ -1,0 +1,27 @@
+on:
+  workflow_call:
+    inputs:
+      version:
+        description: "The version of the Vale to use"
+        default: "3.5.0"
+        type: string
+        required: false
+
+jobs:
+  vale:
+    name: Writing Checks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Vale Check
+        uses: errata-ai/vale-action@reviewdog
+        with:
+          filter_mode: added
+          reporter: github-pr-review
+          vale_flags: --glob=*.{md} --minAlertLevel=error
+          fail_on_error: false
+          version: ${{ inputs.version }}
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
