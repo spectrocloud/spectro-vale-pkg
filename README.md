@@ -25,17 +25,18 @@ Use the following steps to use the Spectro Cloud Vale package in your documentat
 
    MinAlertLevel = suggestion
 
-   Packages = https://github.com/spectrocloud/spectro-vale-pkg/releases/latest/download/spectrocloud-docs.zip
+   Packages = https://github.com/spectrocloud/spectro-vale-pkg/releases/latest/download/spectrocloud.zip
    Vocab = spectrocloud-vocab
 
    [*.md]
-   BasedOnStyles =  Vale, spectrocloud-docs
+   BasedOnStyles =  Vale, spectrocloud
    ```
 
-3. In the repository `.gitignore` file, add the following line to ignore the Vale package files:
+3. In the repository `.gitignore` file, add the following line to ignore the Vale package files from being committed to the repository:
 
    ```shell
-   vale/styles/spectrocloud-docs/
+   .vale-config/
+   vale/styles/spectrocloud/
    vale/styles/config/vocabularies/spectrocloud-vocab
    ```
 
@@ -52,7 +53,7 @@ Use the following steps to use the Spectro Cloud Vale package in your documentat
 
    on:
      pull_request:
-     types: [opened, synchronize, reopened, ready_for_review]
+       types: [opened, synchronize, reopened, ready_for_review]
 
    concurrency:
      group: vale-${{ github.ref }}
