@@ -48,13 +48,16 @@ check_pass_conditions() {
 
   RESULT=$(vale --config="$config_file" --no-exit --output=line  "$pass_md_file" |  wc -l)
 
+
   if [ "$RESULT" -ne 0 ]; then
      echo "$package_name/$rule_name fail condition test - ❌"
+      log=$(vale --config="$config_file" --output=line  "$pass_md_file")
+      echo "Debug: $log"
     failed_tests=$((failed_tests + 1))
      return 1
   fi
 
-  echo "$package_name/$rule_name passs condition test - ✅"
+  echo "$package_name/$rule_name pass condition test - ✅"
 }
 
 # This function checks the fail conditions for the Vale rule. A file with the name fail.md is expected to be present.
@@ -84,7 +87,7 @@ check_fail_conditions() {
   RESULT=$(vale --config="$config_file" --no-exit --output=line  "$fail_md_file" |  wc -l)
 
   if [ "$RESULT" -eq 0 ]; then
-     echo "$package_name/$rule_name fail condition test - ❌"
+      echo "$package_name/$rule_name fail condition test - ❌"
      failed_tests=$((failed_tests + 1))
      return 1
   fi

@@ -34,7 +34,7 @@ check_test_files() {
 
     if [[ "$all_files_exist" == false ]]; then
        ((failed_tests++))
-        echo "$package_name/$rule_name missing required files:" 
+        echo "$package_name/$rule_name missing required files: ❌" 
         for file in "${missing_files[@]}"; do
             echo "  - $file"
         done   
