@@ -19,9 +19,11 @@ copy_content() {
   if [ "$1" = "spectrocloud" ]; then
     echo "Copying content for spectrocloud pkg"
     cp -R packages/spectrocloud/ workbench/spectrocloud
+    remove_tests "workbench/spectrocloud"
   elif [ "$1" = "spectrocloud-docs-internal" ]; then
     echo "Copying content for spectrocloud-docs-internal pkg"
     cp -R packages/spectrocloud-docs-internal workbench/spectrocloud-docs-internal
+     remove_tests "workbench/spectrocloud-docs-internal"
   fi
 }
 
@@ -45,6 +47,14 @@ zip_files() {
     zip -r ../spectrocloud-docs-internal.zip spectrocloud-docs-internal/
   fi
   cd ..
+}
+
+# Function to remove all tests folders from the target directory
+# The function takes one argument which is the target directory
+remove_tests() {
+  target_dir=$1
+  echo "Removing the tests folder from $target_dir"
+  find "$target_dir" -type d -name tests -exec rm -rf {} +
 }
 
 # Function to check and remove existing zip files
