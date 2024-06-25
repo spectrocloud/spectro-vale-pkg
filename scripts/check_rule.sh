@@ -123,7 +123,9 @@ traverse_and_check "$BASE_DIRECTORY"
 if [ "$failed_tests" -ne 0 ]; then
   echo ""
   echo "❌ Total failed tests: $failed_tests "
-else
-  echo ""
-  echo "All Vale rules checked successfully without any errors 🎉"
+  exit 1
 fi
+
+echo ""
+echo "All Vale rules checked successfully without any errors 🎉"
+exit 0
