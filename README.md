@@ -1,12 +1,10 @@
-<!-- vale off -->
-
 [![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
 
 # Spectro Cloud Vale Package
 
 ![Spectro Cloud logo with docs inline](/static/images/spectrocloud-logo-light.svg)
 
-This repository contains the Vale package for Spectro Cloud documentation. The package includes custom rules and configurations to ensure consistency and quality across the documentation. The package is based of the [Spectro Cloud style guide](https://spectrocloud.atlassian.net/wiki/spaces/DE/pages/1765933057/Spectro+Cloud+Internal+Style+Guide) and best practices.
+This repository contains the Vale package for Spectro Cloud documentation. The package includes custom rules and configurations to ensure consistency and quality across the documentation. It is based on the [Spectro Cloud style guide](https://spectrocloud.atlassian.net/wiki/spaces/DE/pages/1765933057/Spectro+Cloud+Internal+Style+Guide) and best practices.
 
 ## Usage
 
@@ -74,21 +72,21 @@ Use the following steps to use the Spectro Cloud Vale package in your documentat
        uses: spectrocloud/spectro-vale-pkg/.github/workflows/vale.yml@main
    ```
 
-You are now ready to use the Spectro Cloud Vale package in your documentation. The Vale package will run on every pull request and provide feedback on the documentation.
+You are now ready to use the Spectro Cloud Vale package in your documentation. The Vale package will be used on every pull request in the repository and provide feedback on new or modified markdown files.
 
 > [!TIP]
 > Pull Requests in draft mode will not trigger the writting checks. Make sure to mark the PR as ready for review to trigger the checks.
 
-If a pull request does not meet the standards, Vale will provide suggestions to improve the documentation.
+If a pull request does not meet the standards, Vale will provide suggestions on how to improve the documentation.
 
-If you want to run Vale locally, use the following command.
+If you want to use Vale locally, issue the following command.
 
 ```shell
 vale path/to/your/file
 ```
 
-A detailed output will show the suggestions and errors in the documentation.
+A detailed output will display the suggestions and errors in the documentation.
 
 ## Contribution
 
-Please refer to the [Contribution Guide](docs/CONTRIBUTION.md) for more information on how to contribute to this repository.
+For more information on contributing to this repository, please refer to the [Contribution Guide](docs/CONTRIBUTION.md).
