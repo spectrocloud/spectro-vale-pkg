@@ -6,6 +6,7 @@ message: "The ':::note' admonition is not approved under the Spectro Cloud style
 link: https://spectrocloud.atlassian.net/wiki/spaces/DE/pages/1765933057/Spectro+Cloud+Internal+Style+Guide#Admonitions/Callouts
 level: error
 nonword: true
+scope: raw
 ignorecase: true
 swap:
   ":::note": ":::info"

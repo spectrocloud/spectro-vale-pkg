@@ -3,7 +3,7 @@ on:
     inputs:
       version:
         description: "The version of the Vale to use"
-        default: "3.5.0"
+        default: "3.6.0"
         type: string
         required: false
 

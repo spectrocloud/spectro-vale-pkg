@@ -2,12 +2,8 @@
 # SPDX-License-Identifier: Apache-2.0
 
 extends: existence
-message: "Avoid using a noun that starts with an '-ing' in headings. Your heading starts with '%s'."
+message: "Avoid using a noun that starts with an -ing in headings. Your heading starts with a word ending in '%s'."
 level: error
+scope: heading
 raw:
-  - '\n\n\# [a-z]*ing '
-  - '\n\n\#\# [a-z]*ing '
-  - '\n\n\#\#\# [a-z]*ing '
-  - '\n\n\#\#\#\# [a-z]*ing '
-  - '\n\n\#\#\#\#\# [a-z]*ing '
-  - '\n\n\#\#\#\#\#\# [a-z]*ing '
+  - "ing\\b"
