@@ -89,6 +89,8 @@ check_fail_conditions() {
 
   if [ "$RESULT" -eq 0 ]; then
       echo "$package_name/$rule_name fail condition test - ❌"
+      log=$(vale --config="$config_file" --output=line "$fail_md_file")
+      echo "Debug: $log"
      failed_tests=$((failed_tests + 1))
      return 1
   fi
