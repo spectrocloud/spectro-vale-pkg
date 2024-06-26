@@ -14,8 +14,8 @@ To create a new Vale rule, make sure you have the following software installed.
 
 ### Prerequisites
 
-- [Vale](https://vale.sh/docs/vale-cli/installation/) v3.6.0 or later
-- [Node.js](https://nodejs.org/en/download/prebuilt-installer) v20.0.0 or later
+- [Vale](https://vale.sh/docs/vale-cli/installation/) v3.6.0 or later.
+- [Node.js](https://nodejs.org/en/download/prebuilt-installer) v20.0.0 or later.
 - You have discussed the rule with the Docs & Education team and have received approval.
 - Cloned the repository and have the latest `main` branch version.
 
