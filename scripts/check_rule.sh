@@ -46,7 +46,7 @@ check_pass_conditions() {
     echo "Error: $base_directory does not contain a file named .vale.ini"
     exit 1
   fi
-
+  echo "vale --config=$config_file --no-exit --output=line $pass_md_file"
   RESULT=$(vale --config="$config_file" --no-exit --output=line "$pass_md_file" | wc -l)
   debug=$(vale --config="$config_file" --output=line "$pass_md_file")
   echo "Debug: $debug"

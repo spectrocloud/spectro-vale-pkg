@@ -15,12 +15,12 @@ init: ## Initialize the project
 
 required_files: ## Check if required files are present
 	@echo "Checking if required files are present..."
-	./scripts/missing_tests.sh packages/
+	./scripts/missing_tests.sh packages
 
 
 tests: ## Run tests
 	@echo "Running tests..."
-	./scripts/check_rule.sh packages/
+	./scripts/check_rule.sh packages
 
 ##@ Publish
 
