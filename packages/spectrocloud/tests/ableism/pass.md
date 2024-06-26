@@ -6,4 +6,4 @@ You can access the cluster by issuing the following command.
 kubectl get pods
 ```
 
-The output displays all the pods active in the cluster.
+The output displays all the pods active in the cluster. See that
