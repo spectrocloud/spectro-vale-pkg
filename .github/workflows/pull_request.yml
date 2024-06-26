@@ -44,13 +44,13 @@ jobs:
           sudo mv vale /usr/local/bin/
 
       - name: debug
-        run: vale --config=packages/spectrocloud/tests/ableism/vale.ini packages/spectrocloud/tests/ableism/pass.md
+        run: vale --config=packages/spectrocloud/tests/ableism/.vale.ini packages/spectrocloud/tests/ableism/pass.md
 
-      # - name: Vale Version
-      #   run: vale --version
+      - name: Vale Version
+        run: vale --version
 
-      # - name: Test Files Present?
-      #   run: make required_files
+      - name: Test Files Present?
+        run: make required_files
 
       - name: Tests
         run: make tests
