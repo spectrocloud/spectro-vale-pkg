@@ -50,6 +50,8 @@ check_pass_conditions() {
   RESULT=$(vale --config="$config_file" --no-exit --output=line "$pass_md_file" | wc -l)
   debug=$(vale --config="$config_file" --output=line "$pass_md_file")
   echo "Debug: $debug"
+  cat $pass_md_file
+  cat $config_file
 
   if [ "$RESULT" -ne 0 ]; then
     echo "$package_name/$rule_name fail condition test - ❌"
@@ -108,6 +110,7 @@ traverse_and_check() {
   for package_dir in "$base_directory"/*; do
     if [ -d "$package_dir/tests" ]; then
     echo "Checking Vale rules for package: $package_dir"
+
       
       # Walk the tests directory for sub-directories
       echo ""
