@@ -9,12 +9,17 @@ REQUIRED_FILES=(".vale.ini" "pass.md" "fail.md")
 # Counter for failed tests
 failed_tests=0
 
-# Function to get the rule name from the rule file path
+# Function to get the rule name from the rule file path. If the file does not end with .yaml, it will return an error message.
 get_rule_name() {
     local rule_file="$1"
-    local rule_name=$(basename "$rule_file" .yml)
-    rule_name=${rule_name%.yaml}
-    echo "$rule_name"
+    if [[ "$rule_file" == *.yaml ]]; then
+        echo ""
+        echo "Error: The rule $rule_file ends with .yaml. Vale requires .yml instead. ❌"
+        echo ""
+    else
+        local rule_name=$(basename "$rule_file" .yml)
+        echo "$rule_name"
+    fi
 }
 
 # Function to check if test files exist
@@ -40,6 +45,15 @@ check_test_files() {
         done   
     fi
 
+}
+
+check_yaml_extension() {
+    local file="$1"
+    if [[ "$file" == *.yaml ]]; then
+        echo "The file ends with .yaml"
+    else
+        echo "The file does not end with .yaml"
+    fi
 }
 
 # Function to traverse the directory structure

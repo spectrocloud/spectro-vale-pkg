@@ -1,12 +1,6 @@
 ## Parameters
 
-The following parameter(s) are supported.
-
-:::info
-
-The cluster node(s) will automatically scale down.
-
-:::
+The following parameters are supported:
 
 - `name` (string, required): The name of the user.
 
