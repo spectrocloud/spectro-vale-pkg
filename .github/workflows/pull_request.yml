@@ -43,6 +43,9 @@ jobs:
           chmod +x vale
           sudo mv vale /usr/local/bin/
 
+      - name: Vale Version
+        run: vale --version
+
       - name: Test Files Present?
         run: make required_files
 
