@@ -87,6 +87,9 @@ check_fail_conditions() {
 
   RESULT=$(vale --config="$config_file" --no-exit --output=line  "$fail_md_file" |  wc -l)
 
+    # Debugging: Print the RESULT value
+    echo "RESULT: $RESULT"
+
   if [ "$RESULT" -eq 0 ]; then
       echo "$package_name/$rule_name fail condition test - ❌"
       log=$(vale --config="$config_file" --output=line "$fail_md_file")
