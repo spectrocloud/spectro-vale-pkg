@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # Copyright (c) Spectro Cloud
 # SPDX-License-Identifier: Apache-2.0
 
