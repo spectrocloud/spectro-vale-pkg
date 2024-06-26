@@ -52,6 +52,7 @@ check_pass_conditions() {
   echo "Debug: $debug"
   cat $pass_md_file
   cat $config_file
+  echo ""
 
   if [ "$RESULT" -ne 0 ]; then
     echo "$package_name/$rule_name fail condition test - ❌"
