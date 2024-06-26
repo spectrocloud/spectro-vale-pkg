@@ -48,6 +48,8 @@ check_pass_conditions() {
   fi
 
   RESULT=$(vale --config="$config_file" --no-exit --output=line "$pass_md_file" | wc -l)
+  debug=$(vale --config="$config_file" --output=line "$pass_md_file")
+  echo "Debug: $debug"
 
   if [ "$RESULT" -ne 0 ]; then
     echo "$package_name/$rule_name fail condition test - ❌"
