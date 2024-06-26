@@ -8,6 +8,9 @@ concurrency:
   group: pr-${{ github.ref }}
   cancel-in-progress: true
 
+env:
+  VALE_VERSION: "3.5.0"
+
 jobs:
   run-ci:
     # runs-on: ubuntu-latest
@@ -31,6 +34,14 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+
+      - name: Get Vale
+        run: |
+          URL="https://github.com/errata-ai/vale/releases/download/v${VALE_VERSION}/vale_${VALE_VERSION}_Linux_64-bit.tar.gz"
+          wget --quiet $URL --output-document vale.tar.gz
+          tar -xzf vale.tar.gz
+          chmod +x vale
+          sudo mv vale /usr/local/bin/
 
       - name: Test Files Present?
         run: make required_files
