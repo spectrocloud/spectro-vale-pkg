@@ -107,6 +107,7 @@ traverse_and_check() {
   # Traverse the packages directory and look one level down
   for package_dir in "$base_directory"/*; do
     if [ -d "$package_dir/tests" ]; then
+    echo "Checking Vale rules for package: $package_dir"
       
       # Walk the tests directory for sub-directories
       echo ""
