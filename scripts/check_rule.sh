@@ -11,7 +11,7 @@ failed_tests=0
 get_last_directory_name() {
   dir_path=$1
   base_name=$(basename "$dir_path")
-  capitalized_name="$(tr '[:lower:]' '[:upper:]' <<< ${base_name:0:1})${base_name:1}"
+  capitalized_name="$(echo "${base_name:0:1}" | tr '[:lower:]' '[:upper:]')${base_name:1}"
   echo "$capitalized_name"
 }
 
