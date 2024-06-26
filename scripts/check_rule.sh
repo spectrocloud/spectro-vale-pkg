@@ -11,10 +11,11 @@ failed_tests=0
 get_last_directory_name() {
   dir_path=$1
   base_name=$(basename "$dir_path")
-  capitalized_name="$(echo "${base_name:0:1}" | tr '[:lower:]' '[:upper:]')${base_name:1}"
+  first_char=$(echo "$base_name" | cut -c1 | tr '[:lower:]' '[:upper:]')
+  rest_chars=$(echo "$base_name" | cut -c2-)
+  capitalized_name="${first_char}${rest_chars}"
   echo "$capitalized_name"
 }
-
 # This function extracts the first folder name (package name) from a given path.
 get_package_name() {
   dir_path=$1
