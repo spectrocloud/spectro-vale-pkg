@@ -1,10 +1,11 @@
 # Copyright (c) Spectro Cloud
 # SPDX-License-Identifier: Apache-2.0
 
-extends: existence
-message: "Headings should use title case."
-level: error
+extends: capitalization
+message: "'%s' should be in title case"
+level: warning
 scope: heading
-ignorecase: false
-raw:
-  - \b(?!([A-Z][a-z]*\b|[a-z]{1,2}\b|[A-Z]{2,}))([a-z]+|[A-Z]+[a-z]*)\b
+# $title, $sentence, $lower, $upper, or a pattern.
+match: $title
+style: Chicago # AP or Chicago; only applies when match is set to $title.
+
