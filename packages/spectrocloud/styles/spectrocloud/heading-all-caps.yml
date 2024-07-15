@@ -1,0 +1,7 @@
+extends: existence
+message: "Headings should not be entirely in uppercase."
+level: error
+scope: heading
+ignorecase: false
+raw:
+  - ^[A-Z\s]+$
