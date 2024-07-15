@@ -1,0 +1,10 @@
+# Copyright (c) Spectro Cloud
+# SPDX-License-Identifier: Apache-2.0
+
+extends: existence
+message: "Headings should use title case."
+level: error
+scope: heading
+ignorecase: false
+raw:
+  - \b(?!([A-Z][a-z]*\b|[a-z]{1,2}\b|[A-Z]{2,}))([a-z]+|[A-Z]+[a-z]*)\b
