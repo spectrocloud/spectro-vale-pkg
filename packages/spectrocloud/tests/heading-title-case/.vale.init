@@ -1,0 +1,4 @@
+StylesPath = ../../styles/
+MinAlertLevel = suggestion
+[*.md]
+spectrocloud.heading-title-case = YES
