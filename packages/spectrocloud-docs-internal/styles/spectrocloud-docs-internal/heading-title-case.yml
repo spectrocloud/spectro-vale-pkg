@@ -1,0 +1,11 @@
+# Copyright (c) Spectro Cloud
+# SPDX-License-Identifier: Apache-2.0
+
+extends: capitalization
+message: "'%s' should be in title case"
+level: warning
+scope: heading
+# $title, $sentence, $lower, $upper, or a pattern.
+match: $title
+style: Chicago # AP or Chicago; only applies when match is set to $title.
+
