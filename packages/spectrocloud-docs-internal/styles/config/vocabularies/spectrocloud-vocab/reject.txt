@@ -19,3 +19,4 @@ Readme
 OpenShit
 Palette Extended Kubernetes
 local UI
+open-source
