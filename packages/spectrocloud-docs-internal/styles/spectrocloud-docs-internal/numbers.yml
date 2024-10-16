@@ -1,0 +1,17 @@
+# Copyright (c) Spectro Cloud
+# SPDX-License-Identifier: Apache-2.0
+
+extends: existence
+message: "Spell out numbers zero through nine. You mentioned '%s'."
+link: "https://spectrocloud.atlassian.net/wiki/spaces/DE/pages/1765933057/Spectro+Cloud+Internal+Style+Guide#Numbers"
+ignorecase: true
+level: error
+nonword: false
+scope: text
+tokens:
+  - '\b([0-9]/[0-9])\b'
+  - '\b([0-9])\b'
+  - '\b(1st)\b'
+  - '\b(2nd)\b'
+  - '\b(3rd)\b'
+  - '\b([0-9]th)\b'
