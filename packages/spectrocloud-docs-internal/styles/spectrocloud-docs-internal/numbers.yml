@@ -10,7 +10,7 @@ nonword: false
 scope: text
 tokens:
   - '\b([0-9]/[0-9])\b'
-  - '\b([0-9])\b'
+  - '(?<!\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s)\b\[0-9]\b'  
   - '\b(1st)\b'
   - '\b(2nd)\b'
   - '\b(3rd)\b'

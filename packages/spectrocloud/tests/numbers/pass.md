@@ -17,4 +17,6 @@
    | **Type**        | **Infrastructure**                                                                                                                                                                                                |
    | **Tags**        | Assign any desired profile tags. Tags propagate to the Virtual Machines (VMs) deployed in the cloud or data center environment when clusters are created from this cluster profile. Example: `owner` or `region`. |
 
-5. You should have 10 layers in your profile. 
+5. You should have 10 layers in your profile.
+
+6. It is currently November 3, 2024.
