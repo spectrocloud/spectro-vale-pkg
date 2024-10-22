@@ -9,13 +9,11 @@ Palette Management console
 Palette management console
 Pre-requisite
 pre-requisite
-Hence
-hence
+[Hh]Hence
 VSphere
 VMWare
 on-premises
-readme
-Readme
+[Rr]eadme
 OpenShit
 Palette Extended Kubernetes
 local UI

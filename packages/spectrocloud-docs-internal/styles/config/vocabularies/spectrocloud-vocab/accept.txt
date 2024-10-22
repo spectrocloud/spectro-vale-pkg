@@ -5,13 +5,12 @@ SOC 2
 IPs
 VMware
 kCh
-data center
+[Dd]ata center
 CVEs
 hotfixes
-kubectl
+[Kk]ubectl
 is
-Cloud
-cloud
+(?i)Cloud
 simple
 execute
 CLI
@@ -23,13 +22,11 @@ subnets
 VMs
 VNet
 Kubelet
-We
-we
+(?i)We
 vSphere
 kubeadm
 upsize
-Alertmanager 
-alertmanager
+[Aa]lertmanager 
 grafana
 Grafana
 etcd
@@ -38,7 +35,7 @@ SREs
 EKS
 AKS
 GKE
-admin
+[Aa]dmin
 Autoscaler
 autoscaler
 Fargate
@@ -54,15 +51,12 @@ Tencent
 serverless
 vCenter
 Palette Dev Engine
-Dev
-dev
+[Dd]ev
 Postgres
-hostname
-Hostname
+[Hh]ostname
 enablement
 Enablement
-Namespace
-namespace
+[Nn]amespace
 Lua
 Konvoy
 Kairos
@@ -118,10 +112,8 @@ uncomment
 OAuth
 unsecure
 vMotion
-repavement
-Repavement
-repave
-Repave
+[Rr]epavement
+[Rr]Repave
 K3s
 boolean
 Velero
@@ -150,8 +142,7 @@ Airgap
 jq
 Caddy
 jumpbox
-Oras
-oras
+[Oo]Oras
 Netplan
 Astra Trident
 Astra
@@ -174,8 +165,7 @@ Entra
 README
 Tailscale
 Tailnet
-Sanitization
-sanitization
+[Ss]anitization
 Filepath
 untrusted
 goroutines
