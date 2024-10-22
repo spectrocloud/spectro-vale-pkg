@@ -27,8 +27,7 @@ vSphere
 kubeadm
 upsize
 [Aa]lertmanager 
-grafana
-Grafana
+[Gg]rafana
 etcd
 SRE
 SREs
