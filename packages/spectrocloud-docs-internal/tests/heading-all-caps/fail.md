@@ -23,6 +23,11 @@ Select the workflow that best fits your needs.
 - [Create an Edge Native Host Cluster](#create-an-edge-native-host-cluster)
 - [Add an Edge Host to a Host Cluster](#add-an-edge-host-to-a-host-cluster)
 
+### Improvements
+
+<!-- prettier-ignore -->
+- <VersionedLink text="BYOOS Edge OS" url="/integrations/packs/?pack=edge-native-byoi" /> pack version 2.0.0 is now available with support for [agent mode deployment](../deployment-modes/agent-mode/agent-mode.md).
+
 ## THIS IS NOT TITLE CASE
 
 ## Create an Edge Native Host Cluster
