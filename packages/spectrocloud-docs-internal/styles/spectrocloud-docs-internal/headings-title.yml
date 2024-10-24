@@ -5,6 +5,8 @@ extends: existence
 message: "Avoid using a noun that starts with an -ing in headings. Your heading starts with a word ending in '%s'."
 level: error
 scope: heading
-tokens: first_token
 raw:
-  - "ing\\b"
+  - "^\\b\\w+ing\\b"
+exceptions:
+  - "Breaking"
+  - "Breaking Changes"

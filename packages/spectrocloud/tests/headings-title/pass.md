@@ -11,3 +11,5 @@ Palette eXtended Kubernetes (PXK) is a Kubernetes distribution that is optimized
 ###### Exceptions
 
 ## Registry Mapping Rules
+
+# Breaking Changes
