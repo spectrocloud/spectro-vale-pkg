@@ -79,7 +79,7 @@ check_fail_conditions() {
   
   # Check if the directory contains a file named fail.md
   if [ ! -f "$fail_md_file" ]; then
-    echo "Error: $base_directory does not contain a file named pass.md"
+    echo "Error: $base_directory does not contain a file named fail.md"
     exit 1
   fi
 
@@ -92,12 +92,12 @@ check_fail_conditions() {
 
   RESULT=$(vale --config="$config_file" --no-exit --output=line  "$fail_md_file" |  wc -l)
 
-  if [ -z $RESULT ]; then
-      echo "$package_name/$rule_name fail condition test - ❌"
-      log=$(vale --config="$config_file" --output=line "$fail_md_file")
-      echo "Debug: $log"
-     failed_tests=$((failed_tests + 1))
-     return 1
+  if [ "$RESULT" -eq 0 ]; then
+    echo "$package_name/$rule_name fail condition test - ❌"
+    log=$(vale --config="$config_file" --output=line "$fail_md_file")
+    echo "Debug: $log"
+    failed_tests=$((failed_tests + 1))
+    return 1
   fi
   echo "$package_name/$rule_name fail condition test - ✅"
 }

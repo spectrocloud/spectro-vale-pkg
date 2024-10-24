@@ -6,4 +6,7 @@ message: "Avoid using a noun that starts with an -ing in headings. Your heading 
 level: error
 scope: heading
 raw:
-  - "ing\\b"
+  - "^\\b\\w+ing\\b"
+exceptions:
+  - "Breaking"
+  - "Breaking Changes"

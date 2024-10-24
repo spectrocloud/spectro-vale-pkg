@@ -19,3 +19,12 @@ A few things to keep in mind before removing the cluster profile:
 - Active clusters are not affected.
 
 - Names starting with `project:scope` are reserved for internal use.
+
+#### External Registry Parameters
+
+:::warning
+
+This parameter is deprecated. Use the parameter [`stylus.externalRegistries`](#external-registries) to configure
+external registries.
+
+:::

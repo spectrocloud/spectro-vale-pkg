@@ -130,14 +130,12 @@ Kubernetes NFS Subdir External Provisioner
 Splunk
 Kubevious
 Citrix
-Disable
+[Dd]isable
 Hotfixes
 Hotfix
 Layer 2
 L2
 HashiCorp
-airgap
-Airgap
 jq
 Caddy
 jumpbox
@@ -195,7 +193,7 @@ rhel
 Ubuntu
 RHEL
 repave
-airgap
+[Aa]irgap
 Crossplane
 traceroute
 Local UI
