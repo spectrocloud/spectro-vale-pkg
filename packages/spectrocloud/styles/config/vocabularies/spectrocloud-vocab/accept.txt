@@ -17,9 +17,6 @@ CLI
 reject
 disable
 modify
-subnet
-subnets
-VMs
 VNet
 Kubelet
 (?i)We
@@ -79,7 +76,6 @@ operationalize
 passthrough
 htpasswd
 config
-kubeconfig
 addon
 Thanos
 HTTPS
@@ -112,7 +108,7 @@ OAuth
 unsecure
 vMotion
 [Rr]epavement
-[Rr]Repave
+[Rr]epave
 K3s
 boolean
 Velero
@@ -139,7 +135,7 @@ HashiCorp
 jq
 Caddy
 jumpbox
-[Oo]Oras
+[Oo]ras
 Netplan
 Astra Trident
 Astra
@@ -192,7 +188,6 @@ Luet
 rhel
 Ubuntu
 RHEL
-repave
 [Aa]irgap
 Crossplane
 traceroute
