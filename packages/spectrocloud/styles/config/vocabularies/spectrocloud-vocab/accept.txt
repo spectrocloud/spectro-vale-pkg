@@ -15,7 +15,7 @@ simple
 execute
 CLI
 reject
-disable
+[Dd]isable
 modify
 VNet
 Kubelet
