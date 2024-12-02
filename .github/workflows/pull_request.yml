@@ -9,7 +9,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  VALE_VERSION: "3.8.0"
+  VALE_VERSION: "3.9.1"
 
 jobs:
   run-ci:
