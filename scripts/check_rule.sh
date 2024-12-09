@@ -4,8 +4,18 @@
 
 set -e
 
-
 failed_tests=0
+
+check_vale_installation() {
+  if command -v vale &> /dev/null
+  then
+      echo "✅ Vale is installed."
+  else
+      echo "❌ Vale is not installed."
+      echo "ℹ️ Use 'brew install vale' to install it with Homebrew."
+      exit 1
+  fi
+}
 
 # Function to get the last directory name from a given path. This is used to get the rule name.
 get_last_directory_name() {
@@ -106,6 +116,7 @@ check_fail_conditions() {
 # This function traverses the base directory and checks the pass and fail conditions for the Vale rules.
 traverse_and_check() {
   base_directory=$1
+  check_vale_installation
 
   # Traverse the packages directory and look one level down
   for package_dir in "$base_directory"/*; do
