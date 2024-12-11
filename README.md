@@ -87,6 +87,19 @@ vale path/to/your/file
 
 A detailed output will display the suggestions and errors in the documentation.
 
+### Override Vale Version
+
+You can override the Vale version used in the GitHub Action workflow by specifying the version in the YAML template. Below is an example you can use as a reference.
+
+```shell
+vale:
+  needs: [run-ci]
+  uses: spectrocloud/spectro-vale-pkg/.github/workflows/vale.yml@main
+  with:
+    version: '3.9.1'
+```
+
+
 ## Contribution
 
 For more information on contributing to this repository, please refer to the [Contribution Guide](docs/CONTRIBUTION.md).
