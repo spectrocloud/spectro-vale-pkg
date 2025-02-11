@@ -16,6 +16,9 @@ jobs:
   vale:
     name: Writing Checks
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ${{ inputs.directory }}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -25,9 +28,8 @@ jobs:
         with:
           filter_mode: added
           reporter: github-pr-review
-          vale_flags: --minAlertLevel=error
+          vale_flags: --glob=*.{md} --minAlertLevel=error
           fail_on_error: false
           version: ${{ inputs.version }}
-          files: ${{ inputs.directory }}
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
