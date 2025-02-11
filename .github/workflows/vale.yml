@@ -6,11 +6,21 @@ on:
         default: "3.9.1"
         type: string
         required: false
+      directory:
+        description: "The directories to check. Seperate using a commad. For example: 'docs,src'"
+        default: "."
+        type: string
+        required: false
+      runners:
+        description: "The GitHub runners to use. Default is 'ubuntu-latest'"
+        default: "ubuntu-latest"
+        type: string
+        required: false
 
 jobs:
   vale:
     name: Writing Checks
-    runs-on: ubuntu-latest
+    runs-on: [${{ inputs.runners }}]
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -23,5 +33,6 @@ jobs:
           vale_flags: --glob=*.{md} --minAlertLevel=error
           fail_on_error: false
           version: ${{ inputs.version }}
+          files: ${{ inputs.directory }}
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
