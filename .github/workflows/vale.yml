@@ -20,7 +20,7 @@ on:
 jobs:
   vale:
     name: Writing Checks
-    runs-on: [${{ inputs.runners }}]
+    runs-on: ${{ inputs.runners }}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
