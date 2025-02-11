@@ -25,7 +25,7 @@ jobs:
         with:
           filter_mode: added
           reporter: github-pr-review
-          vale_flags: --glob=*.{md} --minAlertLevel=error
+          vale_flags: --minAlertLevel=error
           fail_on_error: false
           version: ${{ inputs.version }}
           files: ${{ inputs.directory }}
