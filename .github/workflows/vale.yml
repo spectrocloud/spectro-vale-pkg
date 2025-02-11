@@ -6,14 +6,9 @@ on:
         default: "3.9.1"
         type: string
         required: false
-      directory:
-        description: "The directories to check. Seperate using a commad. For example: 'docs,src'"
-        default: "."
-        type: string
-        required: false
-      config_file:
-        description: "The path to the Vale configuration file"
-        default: ".vale.ini"
+      vale_flags:
+        description: "Flags to pass to Vale"
+        default: "--glob=*.{md} --minAlertLevel=error"
         type: string
         required: false
 
@@ -21,11 +16,6 @@ jobs:
   vale:
     name: Writing Checks
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ${{ inputs.directory }}
-    env:
-      VALE_CONFIG_PATH: ${{ inputs.config_file }}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -35,7 +25,7 @@ jobs:
         with:
           filter_mode: added
           reporter: github-pr-review
-          vale_flags: --glob=*.{md} --minAlertLevel=error
+          vale_flags: ${{ inputs.vale_flags }}
           fail_on_error: false
           version: ${{ inputs.version }}
         env:
