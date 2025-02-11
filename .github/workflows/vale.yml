@@ -11,6 +11,11 @@ on:
         default: "."
         type: string
         required: false
+      config_file:
+        description: "The path to the Vale configuration file"
+        default: ".vale.ini"
+        type: string
+        required: false
 
 jobs:
   vale:
@@ -19,6 +24,8 @@ jobs:
     defaults:
       run:
         working-directory: ${{ inputs.directory }}
+    env:
+      VALE_CONFIG_PATH: ${{ inputs.config_file }}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
