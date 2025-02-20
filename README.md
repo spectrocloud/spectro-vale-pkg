@@ -96,7 +96,7 @@ vale:
   needs: [run-ci]
   uses: spectrocloud/spectro-vale-pkg/.github/workflows/vale.yml@main
   with:
-    version: "3.9.1"
+    version: '3.9.1'
 ```
 
 ## Contribution
