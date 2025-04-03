@@ -313,3 +313,4 @@ KubeVirt
 [Qq]uiescing
 [Qq]uiesce
 [Pp]reallocation
+containerd
