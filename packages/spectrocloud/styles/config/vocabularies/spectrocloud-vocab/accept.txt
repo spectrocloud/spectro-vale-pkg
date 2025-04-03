@@ -6,6 +6,7 @@ IPs
 VMware
 kCh
 [Dd]ata center
+Datacenter
 CVEs
 hotfixes
 [Kk]ubectl
@@ -284,8 +285,9 @@ reusability
 Kubeflow
 Sysdig
 Antrea
-Millicore
-Mibibyte
+[Mm]illicore
+[Mm]ibibyte
+mibibyte
 netlink
 restic
 Zot
