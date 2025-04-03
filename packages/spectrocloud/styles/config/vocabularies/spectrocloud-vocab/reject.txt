@@ -1,4 +1,3 @@
-Datacenter
 datacenter
 cli
 ribbon menu
