@@ -314,3 +314,5 @@ KubeVirt
 [Qq]uiesce
 [Pp]reallocation
 containerd
+teardown
+runtimes
