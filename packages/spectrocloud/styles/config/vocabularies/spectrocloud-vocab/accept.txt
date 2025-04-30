@@ -40,6 +40,8 @@ VPC
 VPCs
 subnets
 subnet
+subnetwork
+subnetworks
 AZs
 VMs
 IaaS
@@ -85,10 +87,11 @@ ClusterRole
 ClusterRoleBindings
 RoleBindings
 RoleBinding
-kubeconfig
+[Kk]ubeconfig
 Nginx
 Repo
 datastore
+datastores
 uxp
 wodim
 Letsencrypt
@@ -146,6 +149,7 @@ Autosupport
 Validator
 bool
 OVA
+OVAs
 Okta
 Keycloak
 Simple Mail Transfer Protocol
@@ -159,6 +163,7 @@ Entra
 README
 Tailscale
 Tailnet
+Tailnets
 [Ss]anitization
 untrusted
 goroutines
@@ -181,6 +186,7 @@ CPUs
 ORAS
 [Pp]reload
 [Pp]reloaded
+[Pp]reloading
 eXtented
 Palette eXtented Kubernetes
 Palette eXtented Kubernetes - Edge
@@ -243,6 +249,7 @@ Switchport
 [Uu]nshipped
 [Cc]onformant
 [Tt]ooltip
+[Tt]ooltips
 [Rr]ebalance
 [Rr]ebalancing
 [Oo]nboarding
@@ -269,8 +276,6 @@ Busybox
 CIDRs
 Nodeadm
 pfSense
-Key Vault Crypto Service Encryption User
-Google Cloud Recommender
 rsync
 cgroup
 [Ss]harding
@@ -292,7 +297,6 @@ netlink
 restic
 Zot
 Signoff
-Palo Alto Networks
 CPU Hotplug
 Heredoc
 Nano
@@ -316,3 +320,32 @@ KubeVirt
 containerd
 teardown
 runtimes
+[Pp]reconfigure
+[Pp]reconfigured
+[Pp]repopulate
+[Pp]repopulated
+[Aa]irgapped
+Twistlock
+[Nn]amespaces
+[Tt]ranscodes
+[Tt]ranscoded
+APIs
+Istio
+[Mm]isconfiguration
+[Mm]isconfigurations
+ConfigMap
+ConfigMaps
+[Hh]ostname
+[Hh]ostnames
+[Nn]ameserver
+[Nn]ameservers
+CNIs
+CSIs
+NICs
+CLIs
+ISOs
+URIs
+PowerShell
+IPsec
+distroless
+paravirtualized
