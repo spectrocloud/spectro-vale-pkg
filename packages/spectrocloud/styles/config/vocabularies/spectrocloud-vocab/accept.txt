@@ -349,3 +349,6 @@ PowerShell
 IPsec
 distroless
 paravirtualized
+[Ss]ubfolder
+sudo
+journald
