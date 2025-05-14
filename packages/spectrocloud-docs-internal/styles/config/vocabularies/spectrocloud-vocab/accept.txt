@@ -350,5 +350,6 @@ IPsec
 distroless
 paravirtualized
 [Ss]ubfolder
+[Ss]ubfolders
 sudo
 journald
