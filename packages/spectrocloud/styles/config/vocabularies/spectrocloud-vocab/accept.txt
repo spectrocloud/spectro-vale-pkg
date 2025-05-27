@@ -354,3 +354,4 @@ paravirtualized
 sudo
 journald
 PCIe
+Dqlite
