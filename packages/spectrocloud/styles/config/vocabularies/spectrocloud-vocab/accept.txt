@@ -355,3 +355,10 @@ sudo
 journald
 PCIe
 Dqlite
+[Rr]ollout
+nsenter
+AMI
+AMIs
+[Rr]edownload
+[Rr]etrigger
+[Nn]etboot
