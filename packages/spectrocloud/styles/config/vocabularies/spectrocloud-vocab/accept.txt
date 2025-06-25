@@ -13,7 +13,7 @@ hotfixes
 is
 (?i)Cloud
 simple
-execute
+[Ee]xecute
 CLI
 reject
 [Dd]isable
