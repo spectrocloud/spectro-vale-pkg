@@ -370,7 +370,7 @@ VHD
 VHDs
 wordpress_replica
 wordpress_port
-Wordpress
+WordPress
 firewalld
 cronjob
 cronjobs
