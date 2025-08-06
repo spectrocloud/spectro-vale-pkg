@@ -362,3 +362,4 @@ AMIs
 [Rr]edownload
 [Rr]etrigger
 [Nn]etboot
+Karpenter
