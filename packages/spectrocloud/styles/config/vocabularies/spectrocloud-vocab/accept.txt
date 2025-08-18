@@ -372,8 +372,8 @@ wordpress_replica
 wordpress_port
 WordPress
 firewalld
-cronjob
-cronjobs
+CronJob
+CronJobs
 networkd
 ELRepo
 OTel
