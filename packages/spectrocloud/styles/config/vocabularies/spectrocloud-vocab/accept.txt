@@ -379,3 +379,6 @@ ELRepo
 OTel
 sysctl
 Zstandard
+GPU
+inferencing
+inference
