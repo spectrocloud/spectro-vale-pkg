@@ -6,6 +6,7 @@ addon
 [Aa]irgapped
 AKS
 [Aa]lertmanager 
+Altra
 AMI
 AMIs
 Anchore
@@ -232,6 +233,7 @@ preboot
 [Pp]repended
 [Pp]repopulate
 [Pp]repopulated
+Prodimage
 [Pp]roxied
 PV
 PVs
@@ -259,6 +261,7 @@ restic
 [Rr]eusability
 rhel
 RHEL
+Rodete
 RoleBinding
 RoleBindings
 [Rr]ollout
@@ -336,6 +339,7 @@ uncomment
 unsecure
 [Uu]nshipped
 untrusted
+Upbound
 upsize
 URIs
 userinfo endpoint
