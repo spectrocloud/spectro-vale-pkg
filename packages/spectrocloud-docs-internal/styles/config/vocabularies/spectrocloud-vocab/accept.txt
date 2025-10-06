@@ -58,6 +58,7 @@ cron
 CronJob
 CronJobs
 Crossplane
+Crypto
 CSIs
 [Cc]utover
 CVEs
