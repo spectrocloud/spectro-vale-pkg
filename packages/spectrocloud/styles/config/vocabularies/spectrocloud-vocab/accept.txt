@@ -190,7 +190,7 @@ Ngrok
 NIC
 NICs
 Nodeadm
-Nodepool
+Node[Pp]ool
 nsenter
 Nutanix
 Nvidia
