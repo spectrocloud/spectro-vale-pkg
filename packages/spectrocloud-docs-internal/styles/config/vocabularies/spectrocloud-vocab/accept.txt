@@ -83,6 +83,7 @@ EKS
 ELRepo
 [Ee]nablement
 Entra
+Env
 Epyc
 ESXi
 etcd
@@ -281,6 +282,8 @@ semver
 Signoff
 simple
 Simple Mail Transfer Protocol
+SKU
+SKUs
 snapshotter
 SOC 2
 Spacetastic
@@ -329,6 +332,8 @@ Traefik
 [Tt]ranscoding
 Twistlock
 [Uu]buntu
+UID
+UIDs
 [Uu]nassign
 [Uu]ncheck
 uncomment
