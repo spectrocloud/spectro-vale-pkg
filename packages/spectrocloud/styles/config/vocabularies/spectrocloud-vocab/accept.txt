@@ -58,6 +58,7 @@ cron
 CronJob
 CronJobs
 Crossplane
+Crypto
 CSIs
 [Cc]utover
 CVEs
@@ -82,6 +83,7 @@ EKS
 ELRepo
 [Ee]nablement
 Entra
+Env
 Epyc
 ESXi
 etcd
@@ -189,7 +191,7 @@ Ngrok
 NIC
 NICs
 Nodeadm
-Nodepool
+Node[Pp]ool
 nsenter
 Nutanix
 Nvidia
@@ -280,6 +282,8 @@ semver
 Signoff
 simple
 Simple Mail Transfer Protocol
+SKU
+SKUs
 snapshotter
 SOC 2
 Spacetastic
@@ -328,6 +332,8 @@ Traefik
 [Tt]ranscoding
 Twistlock
 [Uu]buntu
+UID
+UIDs
 [Uu]nassign
 [Uu]ncheck
 uncomment
