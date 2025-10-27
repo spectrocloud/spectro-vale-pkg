@@ -318,6 +318,7 @@ teardown
 Tencent
 tgz
 Thanos
+Tigera
 timeframe
 [Tt]oleration
 [Tt]olerations
