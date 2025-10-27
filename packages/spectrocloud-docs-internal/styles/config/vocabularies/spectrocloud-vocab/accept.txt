@@ -22,6 +22,7 @@ Astra Trident
 [Aa]utoscaler
 autoscaling
 Autosupport
+Avi
 AZs
 balenaEtcher
 Bitnami
@@ -106,6 +107,7 @@ GPU
 GPUs
 [Gg]rafana
 [Hh]ardcoded
+HAProxy
 HashiCorp
 Heredoc
 [Hh]ostname
