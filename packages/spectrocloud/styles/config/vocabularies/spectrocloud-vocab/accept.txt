@@ -274,6 +274,7 @@ rsync
 Runc
 runtimes
 Ryzen
+[Ss]andboxed
 [Ss]anitization
 SBOMs
 [Ss]crollable
