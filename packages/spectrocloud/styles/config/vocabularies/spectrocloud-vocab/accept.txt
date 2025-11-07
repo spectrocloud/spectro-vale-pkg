@@ -295,7 +295,7 @@ Spectro Cloud
 Splunk
 SRE
 SREs
-storageClass
+[Ss]torageClass
 subcommand
 subcommands
 [Ss]ubfolder
