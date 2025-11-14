@@ -162,6 +162,7 @@ Layer 2
 Letsencrypt
 Libvirt
 liveness
+Livepatch
 Loadbalancer
 Local UI
 Lua
