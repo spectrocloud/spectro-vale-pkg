@@ -93,6 +93,7 @@ ethernet
 eXtented
 [Ff]ailover
 Falco
+fapolicyd
 Fargate
 [Ff]ilepath
 firewalld
@@ -135,8 +136,7 @@ Jetson
 journald
 jq
 jumpbox
-k3s
-K3s
+[Kk]3s
 Kai
 Kairos
 Karpenter
@@ -218,6 +218,7 @@ Palette eXtented Kubernetes - Edge
 Palette Upgrader
 paravirtualized
 passthrough
+[Pp]asswordless
 PCGs
 PCIe
 pfSense
