@@ -142,6 +142,7 @@ Kairos
 Karpenter
 kCh
 Keycloak
+[Kk]gateway
 Kibana
 Konvoy
 kubeadm
@@ -178,6 +179,7 @@ MinIO
 [Mm]isconfiguration
 [Mm]isconfigurations
 modify
+[Mm]ultiline
 Multus
 [Nn]ameserver
 [Nn]ameservers
