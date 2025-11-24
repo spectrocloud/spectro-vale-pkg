@@ -243,6 +243,7 @@ preboot
 [Pp]repopulated
 Prodimage
 [Pp]roxied
+Proxmox
 PV
 PVs
 PVC
