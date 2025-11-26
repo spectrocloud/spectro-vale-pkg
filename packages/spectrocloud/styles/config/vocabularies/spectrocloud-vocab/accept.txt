@@ -5,7 +5,7 @@ addon
 [Aa]irgap
 [Aa]irgapped
 AKS
-[Aa]lertmanager 
+[Aa]lertmanager
 Altra
 AMI
 AMIs
@@ -197,6 +197,7 @@ NIC
 NICs
 Nodeadm
 Node[Pp]ool
+npm
 nsenter
 Nutanix
 Nvidia
@@ -330,6 +331,8 @@ Tigera
 timeframe
 [Tt]oleration
 [Tt]olerations
+[Tt]oolchain
+[Tt]oolchains
 [Tt]ooltip
 [Tt]ooltips
 Topolvm
