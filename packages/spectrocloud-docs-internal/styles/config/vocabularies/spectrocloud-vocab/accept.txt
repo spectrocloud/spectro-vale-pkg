@@ -122,7 +122,6 @@ http
 HTTP
 https
 HTTPS
-Hulud
 IaaS
 imageSwap
 inference
@@ -288,7 +287,6 @@ SBOMs
 SELinux
 semver
 [Ss]erverless
-Shai
 [Ss]harding
 Signoff
 simple
