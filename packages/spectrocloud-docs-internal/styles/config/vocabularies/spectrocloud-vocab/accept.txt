@@ -122,6 +122,7 @@ http
 HTTP
 https
 HTTPS
+Hulud
 IaaS
 imageSwap
 inference
@@ -197,6 +198,7 @@ NIC
 NICs
 Nodeadm
 Node[Pp]ool
+npm
 nsenter
 Nutanix
 Nvidia
@@ -286,6 +288,7 @@ SBOMs
 SELinux
 semver
 [Ss]erverless
+Shai
 [Ss]harding
 Signoff
 simple
@@ -330,6 +333,8 @@ Tigera
 timeframe
 [Tt]oleration
 [Tt]olerations
+[Tt]oolchain
+[Tt]oolchains
 [Tt]ooltip
 [Tt]ooltips
 Topolvm
