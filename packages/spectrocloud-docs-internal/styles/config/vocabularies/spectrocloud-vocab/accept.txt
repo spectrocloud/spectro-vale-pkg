@@ -64,6 +64,7 @@ CSIs
 [Cc]utover
 CVEs
 Cybersecurity
+Cyber
 [Dd]ata center
 [Dd]atacenter
 [Dd]atadog
