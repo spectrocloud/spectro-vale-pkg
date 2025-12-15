@@ -309,10 +309,10 @@ subcommands
 [Ss]ubfolders
 [Ss]ubinterface
 [Ss]ubinterfaces
-subnet
-subnets
-subnetwork
-subnetworks
+[Ss]ubnet
+[Ss]ubnets
+[Ss]ubnetwork
+[Ss]ubnetworks
 sudo
 swapfile
 Switchport
