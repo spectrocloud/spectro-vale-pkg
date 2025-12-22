@@ -390,7 +390,6 @@ wodim
 WordPress
 wordpress_port
 wordpress_replica
-[Ww]orkpool
 wpa_supplicant
 Xeon
 Xen
