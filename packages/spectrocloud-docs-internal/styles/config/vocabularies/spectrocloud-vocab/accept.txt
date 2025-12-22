@@ -392,5 +392,7 @@ wordpress_port
 wordpress_replica
 wpa_supplicant
 Xeon
+Xen
+XenServer
 Zot
 Zstandard
