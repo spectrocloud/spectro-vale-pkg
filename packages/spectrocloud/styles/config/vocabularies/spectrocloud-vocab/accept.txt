@@ -394,5 +394,6 @@ wpa_supplicant
 Xeon
 Xen
 XenServer
+zlib
 Zot
 Zstandard
