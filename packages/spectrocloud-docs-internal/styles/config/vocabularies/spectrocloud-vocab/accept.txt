@@ -45,7 +45,8 @@ ClusterRole
 ClusterRoleBindings
 CNAME
 CNIs
-config
+[Cc]onfig
+[Cc]onfigs
 ConfigMap
 ConfigMaps
 [Cc]onformant
