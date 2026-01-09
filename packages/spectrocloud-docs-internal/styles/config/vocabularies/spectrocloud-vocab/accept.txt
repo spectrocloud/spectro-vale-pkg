@@ -30,6 +30,7 @@ bool
 boolean
 bootable
 [Bb]ootloader
+Btrfs
 Busybox
 CA
 CAs
