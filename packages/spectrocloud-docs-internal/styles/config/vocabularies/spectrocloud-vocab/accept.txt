@@ -385,6 +385,7 @@ vMotion
 VMs
 VMware
 VNet
+VNets
 VPC
 VPCs
 vSphere
