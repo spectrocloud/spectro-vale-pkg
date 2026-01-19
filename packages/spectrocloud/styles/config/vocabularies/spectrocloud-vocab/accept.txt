@@ -27,7 +27,7 @@ AZs
 balenaEtcher
 Bitnami
 bool
-boolean
+[Bb]oolean
 bootable
 [Bb]ootloader
 Btrfs
@@ -181,7 +181,7 @@ Metadata Syncer
 MinIO
 [Mm]isconfiguration
 [Mm]isconfigurations
-modify
+[Mm]odify
 [Mm]ultiline
 Multus
 [Nn]ameserver
