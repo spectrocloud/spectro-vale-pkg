@@ -398,8 +398,6 @@ VNets
 VPC
 VPCs
 vSphere
-[Ww]ebservice
-[Ww]ebservices
 wodim
 WordPress
 wordpress_port
