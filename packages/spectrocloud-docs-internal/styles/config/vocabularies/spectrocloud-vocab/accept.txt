@@ -4,6 +4,8 @@
 addon
 [Aa]irgap
 [Aa]irgapped
+AIWorkload
+AIWorkloads
 AKS
 [Aa]lertmanager
 Altra
@@ -18,6 +20,7 @@ ARNs
 Astra
 Astra Trident
 [Aa]ttacher
+[Aa]utoincrementing
 [Aa]utoscale
 [Aa]utoscaler
 autoscaling
@@ -28,6 +31,7 @@ balenaEtcher
 Bitnami
 bool
 [Bb]oolean
+[Bb]ooleans
 bootable
 [Bb]ootloader
 Btrfs
@@ -132,7 +136,7 @@ inferencing
 initContainer
 IPs
 IPsec
-is
+[Ii]s
 ISOs
 Istio
 Jetson
@@ -245,6 +249,8 @@ preboot
 [Pp]repended
 [Pp]repopulate
 [Pp]repopulated
+[Pp]rioritizer
+[Pp]rioritizers
 Prodimage
 [Pp]roxied
 Proxmox
@@ -278,6 +284,7 @@ Rodete
 RoleBinding
 RoleBindings
 [Rr]ollout
+[Rr]ollouts
 [Rr]outable
 rsync
 Runc
@@ -307,6 +314,8 @@ SREs
 [Ss]torageClass
 subcommand
 subcommands
+[Ss]ubfield
+[Ss]ubfields
 [Ss]ubfolder
 [Ss]ubfolders
 [Ss]ubinterface
