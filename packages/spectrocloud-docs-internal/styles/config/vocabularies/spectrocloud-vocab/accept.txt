@@ -208,6 +208,7 @@ npm
 nsenter
 Nutanix
 Nvidia
+NVMe
 OAuth
 Okta
 [Oo]nboarding
