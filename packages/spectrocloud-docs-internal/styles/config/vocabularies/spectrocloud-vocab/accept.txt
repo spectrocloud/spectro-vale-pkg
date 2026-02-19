@@ -185,6 +185,8 @@ Metadata Syncer
 MinIO
 [Mm]isconfiguration
 [Mm]isconfigurations
+[Mm]itigation
+[Mm]itigations
 [Mm]odify
 [Mm]ultiline
 Multus
