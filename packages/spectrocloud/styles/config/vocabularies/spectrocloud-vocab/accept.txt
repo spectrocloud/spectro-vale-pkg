@@ -114,6 +114,7 @@ goroutines
 GPU
 GPUs
 [Gg]rafana
+[Hh]arbor
 [Hh]ardcoded
 HAProxy
 HashiCorp
