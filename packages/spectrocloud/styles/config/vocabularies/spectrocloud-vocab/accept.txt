@@ -165,6 +165,7 @@ kubenet
 Kubernetes NFS Subdir External Provisioner
 Kubevious
 KubeVirt
+Kubewatch
 Kyverno
 L2
 Layer 2
@@ -358,6 +359,7 @@ Traefik
 [Tt]ranscoded
 [Tt]ranscodes
 [Tt]ranscoding
+Trivy
 Twistlock
 [Uu]buntu
 UID
