@@ -415,3 +415,4 @@ XenServer
 zlib
 Zot
 Zstandard
+Zypper
