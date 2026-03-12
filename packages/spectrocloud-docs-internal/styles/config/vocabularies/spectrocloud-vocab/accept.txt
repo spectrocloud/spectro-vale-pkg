@@ -344,7 +344,7 @@ Tailnets
 Tailscale
 teardown
 Tencent
-tgz
+TGZ
 Thanos
 Tigera
 timeframe
