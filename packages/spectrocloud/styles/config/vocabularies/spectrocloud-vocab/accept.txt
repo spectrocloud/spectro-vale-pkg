@@ -17,6 +17,7 @@ Antrea
 Anya
 APIs
 ARNs
+Artifactory
 Astra
 Astra Trident
 [Aa]ttacher
@@ -141,6 +142,7 @@ IPsec
 ISOs
 Istio
 Jetson
+JFrog
 journald
 jq
 jumpbox
