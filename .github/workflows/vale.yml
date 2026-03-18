@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Vale Check
-        uses: errata-ai/vale-action@v2.1.1
+        uses: vale-cli/vale-action@0135b9fe2b3107365569cc3142b9a1c85221ea2f
         with:
           filter_mode: added
           reporter: github-pr-review
