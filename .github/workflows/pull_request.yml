@@ -37,7 +37,7 @@ jobs:
 
       - name: Get Vale
         run: |
-          URL="https://github.com/errata-ai/vale/releases/download/v${VALE_VERSION}/vale_${VALE_VERSION}_Linux_64-bit.tar.gz"
+          URL="https://github.com/vale-cli/vale/releases/download/v${VALE_VERSION}/vale_${VALE_VERSION}_Linux_64-bit.tar.gz"
           wget --quiet $URL --output-document vale.tar.gz
           tar -xzf vale.tar.gz
           chmod +x vale
