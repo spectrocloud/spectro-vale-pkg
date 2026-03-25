@@ -193,6 +193,7 @@ MinIO
 [Mm]itigations
 [Mm]odify
 [Mm]ultiline
+[Mm]ultipath
 Multus
 [Nn]ameserver
 [Nn]ameservers
