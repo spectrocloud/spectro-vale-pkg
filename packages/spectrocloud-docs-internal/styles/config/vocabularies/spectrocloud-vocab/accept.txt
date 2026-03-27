@@ -2,6 +2,7 @@
 (?i)We
 [Aa]dmin
 addon
+[Aa]gentic
 [Aa]irgap
 [Aa]irgapped
 AIWorkload
@@ -170,11 +171,14 @@ KubeVirt
 Kubewatch
 Kyverno
 L2
+Langchain
 Layer 2
 Letsencrypt
 Libvirt
 liveness
 Livepatch
+LLM
+LLMs
 Loadbalancer
 Local UI
 Lua
@@ -382,6 +386,7 @@ Upbound
 upsize
 URIs
 userinfo endpoint
+uv
 uxp
 Validator
 vApp
