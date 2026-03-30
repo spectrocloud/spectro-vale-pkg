@@ -89,7 +89,6 @@ distroless
 Dockerfile
 Dqlite
 Earthfile
-ECR
 ECRs
 EKS
 ELRepo
