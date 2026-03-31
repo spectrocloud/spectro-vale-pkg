@@ -89,6 +89,7 @@ distroless
 Dockerfile
 Dqlite
 Earthfile
+ECRs
 EKS
 ELRepo
 [Ee]nablement
@@ -221,6 +222,8 @@ Nutanix
 Nvidia
 NVMe
 OAuth
+[Oo]ffboard
+[Oo]ffboarding
 Okta
 [Oo]nboarding
 OpenSSL
