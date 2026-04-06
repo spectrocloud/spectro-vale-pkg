@@ -51,6 +51,7 @@ CLIs
 ClusterRole
 ClusterRoleBindings
 CNAME
+CNAMEs
 CNIs
 [Cc]onfig
 [Cc]onfigs
@@ -106,6 +107,7 @@ Falco
 fapolicyd
 Fargate
 [Ff]ilepath
+[Ff]ilepaths
 firewalld
 Fluentbit
 Fluentd
@@ -194,6 +196,7 @@ Metadata Syncer
 MinIO
 [Mm]isconfiguration
 [Mm]isconfigurations
+[Mm]isconfigured
 [Mm]itigation
 [Mm]itigations
 [Mm]odify
@@ -375,6 +378,7 @@ Twistlock
 UID
 UIDs
 [Uu]nassign
+[Uu]ncommented
 [Uu]ncheck
 uncomment
 [Uu]nencrypted
@@ -382,6 +386,7 @@ uncomment
 [Uu]nlink
 [Uu]nlinking
 [Uu]nmount
+[Uu]nregister
 unsecure
 [Uu]nshipped
 untrusted
