@@ -223,6 +223,7 @@ npm
 nsenter
 Nutanix
 Nvidia
+NVIDIA
 NVMe
 OAuth
 [Oo]ffboard
