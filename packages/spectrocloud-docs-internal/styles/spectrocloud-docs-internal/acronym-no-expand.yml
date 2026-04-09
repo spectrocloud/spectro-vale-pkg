@@ -1,0 +1,39 @@
+# Copyright (c) Spectro Cloud
+# SPDX-License-Identifier: Apache-2.0
+
+# Rule that flags common acronyms and initialisms that should NOT be spelled out due to being industry standard.
+# Spelling out terms that are overly familiar can hinder readability more than it helps.
+
+extends: existence # Flag when a pattern is found
+message: "Don't spell out '%s'. Use the acronym directly."
+link: "https://spectrocloud.atlassian.net/wiki/spaces/DE/pages/1765933057/Spectro+Cloud+Internal+Style+Guide#Acronyms"
+level: error
+ignorecase: true # Match any casing.
+nonword: true # Allows matching across non-word characters, like parentheses and hyphens.
+vocab: false # Prevents vocabulary from suppressing matches on accepted terms (accept.txt).
+tokens: # All uppercase (not camel case) terms added below must also be added to acronym.yml to avoid contradictory errors.
+  - 'azure kubernetes service\s*\(AKS\)'
+  - 'application programming interface\s*\(API\)'
+  - 'amazon web services\s*\(AWS\)'
+  - 'command[- ]line interface\s*\(CLI\)'
+  - 'central processing unit\s*\(CPU\)'
+  - 'domain name s(ystem|ervice)\s*\(DNS\)'
+  - 'elastic kubernetes service\s*\(EKS\)'
+  - 'google cloud platform\s*\(GCP\)'
+  - 'google kubernetes engine\s*\(GKE\)'
+  - 'graphics? processing unit\s*\(GPU\)'
+  - 'graphical user interface\s*\(GUI\)'
+  - 'infrastructure[- ]as[- ]a[- ]service\s*\(IaaS\)'
+  - 'internet protocol\s*\(IP\)'
+  - 'javascript object notation\s*\(JSON\)'
+  - 'metal[- ]as[- ]a[- ]service\s*\(MAAS\)'
+  - 'operating system\s*\(OS\)'
+  - 'platform[- ]as[- ]a[- ]service\s*\(PaaS\)'
+  - 'portable document format\s*\(PDF\)'
+  - 'transmission control protocol\s*\(TCP\)'
+  - 'software[- ]as[- ]a[- ]service\s*\(SaaS\)'
+  - 'te(xt|rminal) user interface\s*\(TUI\)'
+  - 'user datagram protocol\s*\(UDP\)'
+  - 'user interface\s*\(UI\)'
+  - 'virtual machine\s*\(VM\)'
+  - 'yet another markup language\s*\(YAML\)'

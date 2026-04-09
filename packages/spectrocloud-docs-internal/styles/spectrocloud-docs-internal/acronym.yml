@@ -1,18 +1,34 @@
 # Copyright (c) Spectro Cloud
 # SPDX-License-Identifier: Apache-2.0
 
+# By default, .vale.ini (BasedOnStyles = Vale) uses a built-in spelling filter that skips ALL uppercase words from
+# being spellchecked.
+# This rule is separate from spelling and triggers when an all-uppercase word in parentheses is found (first) but is NOT
+# preceded by title-cased words (second). Acronyms in the exceptions list are skipped from the check entirely.
+
+# Flag when the first condition is true but the second is not.
 extends: conditional
 message: "Use title case to define the acronym '%s'."
 link: "https://spectrocloud.atlassian.net/wiki/spaces/DE/pages/1765933057/Spectro+Cloud+Internal+Style+Guide#Acronyms"
 level: error
+
+# Match any casing.
 ignorecase: false
+
+# Checks regular paragraph text only. Skips headings, code blocks, links, etc.
 scope: text
-# Match two to five capital letters surrounded by brackets
-# to detect an acronym definition.
+
+# Match two to five capital letters surrounded by brackets to detect an acronym definition.
 first: "[(][A-Z]{2,5}[)]"
+
 # Match two to five capitalised words separated by any number of dashes
 # or whitespaces before the acronym definition.
 second: '(\b(([A-Z][a-z]+)[\-\s ]{1,}){2,5})([(][A-Z]{2,5}[)])'
+
+# Acronyms listed in the exceptions are ignored entirely by this rule. This prevents false positives when an acronym
+# appears in parentheses without a formal title-cased definition before it (for example, "Use the Palette endpoint (API)").
+# Acronyms handled by acronym-no-expand.yml should also be listed here to avoid contradictory errors ("use title case" and
+# "don't spell out").
 exceptions:
   - (API)
   - (AWS)
