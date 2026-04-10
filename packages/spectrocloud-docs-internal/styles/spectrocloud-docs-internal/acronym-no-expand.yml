@@ -21,7 +21,7 @@ tokens: # All uppercase (not camel case) terms added below must also be added to
   - 'elastic kubernetes service\s*\(EKS\)'
   - 'google cloud platform\s*\(GCP\)'
   - 'google kubernetes engine\s*\(GKE\)'
-  - 'graphics? processing unit\s*\(GPU\)'
+  - 'graphics processing unit\s*\(GPU\)'
   - 'graphical user interface\s*\(GUI\)'
   - 'infrastructure[- ]as[- ]a[- ]service\s*\(IaaS\)'
   - 'internet protocol\s*\(IP\)'
