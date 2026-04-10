@@ -1,6 +1,6 @@
 ## Troubleshooting
 
-Use the following steps to resolve the operating system (OS) error.
+Use the following steps to resolve the virtual private cloud (VPC) error.
 
 1. Log in to the system console of the OS.
 
