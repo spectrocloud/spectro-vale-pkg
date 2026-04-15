@@ -11,3 +11,5 @@ Use the following steps to resolve the Virtual Private Cloud (VPC) error.
    You can download the log in HTML or JSON format.
 
    :::
+
+The kubeconfig authenticates you through OpenID Connect (OIDC) as a specific user.
