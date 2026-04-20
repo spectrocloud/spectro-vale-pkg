@@ -406,6 +406,8 @@ vCPU
 vCPUs
 Velero
 Vercel
+vGPU
+vGPUs
 VHD
 VHDs
 virtctl
