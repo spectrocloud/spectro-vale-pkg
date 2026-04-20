@@ -409,6 +409,8 @@ Velero
 Vercel
 VHD
 VHDs
+vGPU
+vGPUs
 virtctl
 Virtio
 virtualized
