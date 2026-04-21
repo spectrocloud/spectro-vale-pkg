@@ -251,7 +251,7 @@ passthrough
 PCGs
 PCIe
 pfSense
-Pluggable
+[Pp]luggable
 Podman
 Portworx
 Postgres
