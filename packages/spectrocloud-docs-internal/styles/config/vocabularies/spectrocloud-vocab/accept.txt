@@ -114,6 +114,8 @@ Fluentd
 FSx
 Gbps
 GCP
+GHCR
+GHCRs
 GKE
 goroutines
 GPU
@@ -407,10 +409,10 @@ vCPU
 vCPUs
 Velero
 Vercel
-VHD
-VHDs
 vGPU
 vGPUs
+VHD
+VHDs
 virtctl
 Virtio
 virtualized
