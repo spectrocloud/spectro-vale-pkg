@@ -328,6 +328,7 @@ SKUs
 snapshotter
 SOC 2
 Spacetastic
+Specman
 Spectro
 Spectro Cloud
 Splunk
