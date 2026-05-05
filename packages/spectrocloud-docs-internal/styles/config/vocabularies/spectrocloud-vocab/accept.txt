@@ -252,6 +252,8 @@ passthrough
 [Pp]asswordless
 PCGs
 PCIe
+PDB
+PDBs
 pfSense
 [Pp]luggable
 Podman
