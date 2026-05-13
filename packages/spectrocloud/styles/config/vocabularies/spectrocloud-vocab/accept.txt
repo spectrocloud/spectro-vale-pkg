@@ -195,6 +195,7 @@ Metadata Syncer
 [Mm]ibibyte
 [Mm]iddleware
 [Mm]illicore
+[Mn]illicpu
 MinIO
 [Mm]isconfiguration
 [Mm]isconfigurations
@@ -424,6 +425,7 @@ VLANs
 VMExport
 vMotion
 VMs
+VM's
 VMware
 VNet
 VNets
