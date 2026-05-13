@@ -195,7 +195,7 @@ Metadata Syncer
 [Mm]ibibyte
 [Mm]iddleware
 [Mm]illicore
-[Mn]illicpu
+[Mm]illicpu
 MinIO
 [Mm]isconfiguration
 [Mm]isconfigurations
