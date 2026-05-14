@@ -111,6 +111,7 @@ Fargate
 firewalld
 Fluentbit
 Fluentd
+Fragnesia
 FSx
 Gbps
 GCP
@@ -397,6 +398,7 @@ uncomment
 [Uu]nregister
 unsecure
 [Uu]nshipped
+[Uu]npatched
 untrusted
 Upbound
 upsize
