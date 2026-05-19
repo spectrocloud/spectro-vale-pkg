@@ -5,6 +5,7 @@ addon
 [Aa]gentic
 [Aa]irgap
 [Aa]irgapped
+[Aa]sync
 AIWorkload
 AIWorkloads
 AKS
@@ -388,6 +389,7 @@ UID
 UIDs
 [Uu]nassign
 [Uu]ncommented
+[Uu]ncommenting
 [Uu]ncheck
 uncomment
 [Uu]nencrypted
