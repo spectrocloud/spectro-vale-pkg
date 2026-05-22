@@ -10,3 +10,4 @@ raw:
 exceptions:
   - "Breaking"
   - "Breaking Changes"
+  - "Troubleshooting"
