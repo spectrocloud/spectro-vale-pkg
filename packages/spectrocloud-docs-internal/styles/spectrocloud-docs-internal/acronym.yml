@@ -64,6 +64,8 @@ exceptions:
   - (PNG)
   - (POST)
   - (RAM)
+  - (RHCOS)
+  - (SCOS)
   - (SDK)
   - (SQL)
   - (SSH)
