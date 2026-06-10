@@ -145,7 +145,7 @@ https
 HTTPS
 IaaS
 imageSwap
-inference
+[Ii]nference
 inferencing
 initContainer
 IPs
