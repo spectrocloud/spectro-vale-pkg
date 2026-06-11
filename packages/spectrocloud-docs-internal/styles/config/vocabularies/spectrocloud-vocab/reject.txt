@@ -12,7 +12,6 @@ pre-requisite
 [Hh]Hence
 VSphere
 VMWare
-on-premises
 [Rr]eadme
 OpenShit
 Palette Extended Kubernetes
