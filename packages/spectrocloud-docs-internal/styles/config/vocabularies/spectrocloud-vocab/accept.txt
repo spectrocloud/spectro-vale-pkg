@@ -123,6 +123,7 @@ GCP
 GHCR
 GHCRs
 GKE
+goroutine
 goroutines
 GPU
 GPUs
