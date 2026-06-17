@@ -162,6 +162,7 @@ jumpbox
 [Kk]3s
 Kai
 Kairos
+Kimi
 Karpenter
 kCh
 Keycloak
