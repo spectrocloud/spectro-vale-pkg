@@ -123,6 +123,7 @@ GCP
 GHCR
 GHCRs
 GKE
+goroutine
 goroutines
 GPU
 GPUs
@@ -145,7 +146,7 @@ https
 HTTPS
 IaaS
 imageSwap
-inference
+[Ii]nference
 inferencing
 initContainer
 IPs
@@ -161,6 +162,7 @@ jumpbox
 [Kk]3s
 Kai
 Kairos
+Kimi
 Karpenter
 kCh
 Keycloak

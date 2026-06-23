@@ -9,5 +9,7 @@ level: error
 nonword: true
 scope: raw
 tokens:
-  - '\b(master)\b(?! branch)'
+  # The negative lookbehind on '/' skips 'master' when it is part of a URL or file path
+  # (for example, '.../blob/master/...') while still flagging it in prose such as 'master node'.
+  - '(?<!/)\b(master)\b(?! branch)'
   - '\bslave\b'
