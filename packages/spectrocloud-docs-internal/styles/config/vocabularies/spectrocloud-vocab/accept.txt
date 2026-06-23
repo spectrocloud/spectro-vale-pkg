@@ -269,6 +269,7 @@ Podman
 Portworx
 Postgres
 PowerShell
+poweroff
 [Pp]re
 [Pp]reallocation
 preboot
