@@ -21,9 +21,12 @@ scope: text
 # Match two to five capital letters surrounded by brackets to detect an acronym definition.
 first: "[(][A-Z]{2,5}[)]"
 
-# Match two to five capitalised words separated by any number of dashes
-# or whitespaces before the acronym definition.
-second: '(\b(([A-Z][a-z]+)[\-\s ]{1,}){2,5})([(][A-Z]{2,5}[)])'
+# Match two to five capitalized words separated by any number of dashes or whitespaces
+# before the acronym definition. Each word only needs to start with an uppercase letter, so
+# all-uppercase acronyms (for example "API" or "AWS") and CamelCase product names (for
+# example "CloudStack") that appear inside a definition are accepted. The leading uppercase
+# requirement still flags lowercase definitions such as "cluster api provider aws (CAPA)".
+second: '(\b(([A-Z][A-Za-z]+)[\-\s ]{1,}){2,5})([(][A-Z]{2,5}[)])'
 
 # Acronyms listed in the exceptions are ignored entirely by this rule. This prevents false positives when an acronym
 # appears in parentheses without a formal title-cased definition before it (for example, "Use the Palette endpoint (API)").
