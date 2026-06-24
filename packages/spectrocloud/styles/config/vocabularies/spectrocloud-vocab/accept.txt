@@ -144,6 +144,7 @@ http
 HTTP
 https
 HTTPS
+[Hh]ugepages
 IaaS
 imageSwap
 [Ii]nference
@@ -322,6 +323,7 @@ RoleBindings
 [Rr]outable
 rsync
 Runc
+runStrategy
 runtimes
 Ryzen
 [Ss]andboxed
@@ -362,6 +364,7 @@ subcommands
 [Ss]ubnetwork
 [Ss]ubnetworks
 sudo
+[Ss]ubresource
 swapfile
 Switchport
 Syft
@@ -432,7 +435,7 @@ vGPUs
 VHD
 VHDs
 virtctl
-Virtio
+(?i)virtio
 virtualized
 VLAN
 VLANs
