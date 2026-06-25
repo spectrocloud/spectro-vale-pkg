@@ -25,10 +25,12 @@ Astra Trident
 [Aa]ttacher
 [Aa]uditable
 [Aa]utoincrementing
+[Aa]utoinstall
 [Aa]utoscale
 [Aa]utoscaler
 autoscaling
 Autosupport
+Autounattend
 Avi
 AZs
 balenaEtcher
@@ -48,6 +50,7 @@ CAPZ's
 cdrtools
 Ceph
 cgroup
+[Cc]hipset
 CIDRs
 Citrix
 CLI
@@ -99,6 +102,7 @@ ECRs
 EKS
 ELRepo
 [Ee]nablement
+[Ee]nlightenments
 Entra
 Env
 Epyc
@@ -257,6 +261,7 @@ Palette Dev Engine
 Palette eXtented Kubernetes
 Palette eXtented Kubernetes - Edge
 Palette Upgrader
+[Pp]aravirtual
 paravirtualized
 passthrough
 [Pp]asswordless
@@ -329,6 +334,7 @@ Ryzen
 [Ss]andboxed
 [Ss]anitization
 SBOMs
+[Ss]chedulable
 [Ss]crollable
 SELinux
 semver
@@ -345,6 +351,7 @@ Spacetastic
 Specman
 Spectro
 Spectro Cloud
+[Ss]pinlock
 Splunk
 SRE
 SREs
@@ -401,6 +408,7 @@ Twistlock
 UID
 UIDs
 [Uu]nassign
+Unattend
 [Uu]ncommented
 [Uu]ncommenting
 [Uu]ncheck
@@ -414,6 +422,7 @@ uncomment
 unsecure
 [Uu]nshipped
 [Uu]npatched
+[Uu]npause
 untrusted
 Upbound
 upsize
