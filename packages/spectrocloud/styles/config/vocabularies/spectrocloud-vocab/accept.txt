@@ -90,6 +90,7 @@ datastores
 dbPassword
 declaratively
 [Dd]eduplication
+deletable
 [Dd]escheduler
 [Dd]ev
 Dex
@@ -219,6 +220,8 @@ MinIO
 [Mm]ultiline
 [Mm]ultipath
 Multus
+NAD
+NADs
 [Nn]ameserver
 [Nn]ameservers
 [Nn]amespace
@@ -407,6 +410,8 @@ Twistlock
 [Uu]buntu
 UID
 UIDs
+[Uu]nadopt
+[Uu]nadopting
 [Uu]nassign
 Unattend
 [Uu]ncommented
@@ -417,6 +422,7 @@ uncomment
 [Uu]ninstallation
 [Uu]nlink
 [Uu]nlinking
+unmanaged
 [Uu]nmount
 [Uu]nregister
 unsecure
