@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Vale Check
         uses: vale-cli/vale-action@0135b9fe2b3107365569cc3142b9a1c85221ea2f
