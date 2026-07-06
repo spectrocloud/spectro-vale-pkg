@@ -35,6 +35,7 @@ Avi
 AZs
 balenaEtcher
 Bitnami
+Bochs
 bool
 [Bb]oolean
 [Bb]ooleans
