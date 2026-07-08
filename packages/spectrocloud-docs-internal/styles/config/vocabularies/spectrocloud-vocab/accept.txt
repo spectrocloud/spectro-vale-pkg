@@ -15,6 +15,7 @@ AMI
 AMIs
 Anchore
 Ansible
+Anthropic('s)?
 Antrea
 Anya
 APIs
