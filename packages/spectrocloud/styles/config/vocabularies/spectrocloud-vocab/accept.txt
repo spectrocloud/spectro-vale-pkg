@@ -250,6 +250,7 @@ OAuth
 [Oo]ffboard
 [Oo]ffboarding
 Okta
+Ollama
 [Oo]nboarding
 OpenSSL
 OpenStack
@@ -344,6 +345,7 @@ SBOMs
 SELinux
 semver
 [Ss]erverless
+SGLang
 [Ss]harding
 Signoff
 simple
