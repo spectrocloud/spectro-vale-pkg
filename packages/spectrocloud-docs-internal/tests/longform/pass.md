@@ -13,3 +13,9 @@ kubectl logs pod-name --namespace namespace
    ```shell
    kubeclt logs pod-name --namespace <namespace>
    ```
+
+ping -c 3 10.10.162.130
+
+arping -c 3 10.10.162.130
+
+arp -a

@@ -28,7 +28,7 @@ Astra Trident
 [Aa]utoinstall
 [Aa]utoscale
 [Aa]utoscaler
-autoscaling
+[Aa]utoscaling
 Autosupport
 Autounattend
 Avi
@@ -389,7 +389,7 @@ systemd
 Tailnet
 Tailnets
 Tailscale
-teardown
+[Tt]eardown
 Tencent
 TGZ
 Thanos
