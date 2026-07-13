@@ -29,7 +29,7 @@ Astra Trident
 [Aa]utoinstall
 [Aa]utoscale
 [Aa]utoscaler
-autoscaling
+[Aa]utoscaling
 Autosupport
 Autounattend
 Avi
@@ -251,6 +251,7 @@ OAuth
 [Oo]ffboard
 [Oo]ffboarding
 Okta
+Ollama
 [Oo]nboarding
 OpenSSL
 OpenStack
@@ -345,6 +346,7 @@ SBOMs
 SELinux
 semver
 [Ss]erverless
+SGLang
 [Ss]harding
 Signoff
 simple
@@ -388,7 +390,7 @@ systemd
 Tailnet
 Tailnets
 Tailscale
-teardown
+[Tt]eardown
 Tencent
 TGZ
 Thanos
