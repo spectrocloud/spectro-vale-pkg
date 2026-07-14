@@ -253,6 +253,7 @@ OAuth
 Okta
 Ollama
 [Oo]nboarding
+(?i)opencode
 OpenSSL
 OpenStack
 operationalize
