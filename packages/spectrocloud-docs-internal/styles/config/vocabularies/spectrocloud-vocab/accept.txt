@@ -52,6 +52,7 @@ CAPZ's
 cdrtools
 Ceph
 cgroup
+[Cc]hatbots?
 [Cc]hipset
 CIDRs
 Citrix
