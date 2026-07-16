@@ -382,6 +382,7 @@ subcommands
 [Ss]ubnetworks
 sudo
 [Ss]ubresource
+Supermicro
 swapfile
 Switchport
 Syft
