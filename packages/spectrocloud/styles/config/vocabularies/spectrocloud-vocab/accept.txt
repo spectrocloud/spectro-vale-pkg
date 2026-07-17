@@ -93,7 +93,7 @@ datastores
 dbPassword
 declaratively
 [Dd]eduplication
-deletable
+[Dd]eletable
 [Dd]escheduler
 [Dd]ev
 Dex
@@ -430,7 +430,7 @@ uncomment
 [Uu]ninstallation
 [Uu]nlink
 [Uu]nlinking
-unmanaged
+[Uu]nmanaged
 [Uu]nmount
 [Uu]nregister
 unsecure
