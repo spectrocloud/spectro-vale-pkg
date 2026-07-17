@@ -472,6 +472,7 @@ VNets
 VPC
 VPCs
 vSphere
+Vultr
 wodim
 WordPress
 wordpress_port
