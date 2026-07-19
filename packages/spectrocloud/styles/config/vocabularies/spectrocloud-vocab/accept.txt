@@ -400,6 +400,7 @@ Thanos
 [Tt]iering
 Tigera
 timeframe
+[Tt]okenization
 [Tt]oleration
 [Tt]olerations
 [Tt]oolchain
