@@ -222,6 +222,8 @@ MinIO
 [Mm]itigation
 [Mm]itigations
 [Mm]odify
+mongodump
+mongorestore
 [Mm]ultiline
 [Mm]ultipath
 Multus
@@ -354,6 +356,7 @@ SGLang
 Signoff
 simple
 Simple Mail Transfer Protocol
+[Ss]kopeo
 SKU
 SKUs
 snapshotter
