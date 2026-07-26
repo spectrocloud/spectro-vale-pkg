@@ -159,6 +159,7 @@ imageSwap
 [Ii]nference
 inferencing
 initContainer
+(?i)IOMMU
 IPs
 IPsec
 [Ii]s
@@ -209,6 +210,7 @@ Luet
 MAAS
 [Mm]ebibytes
 Meera
+Mellanox
 Metadata Syncer
 Mgmt
 [Mm]ibibyte
@@ -221,6 +223,7 @@ MinIO
 [Mm]isconfigured
 [Mm]itigation
 [Mm]itigations
+mlxconfig
 [Mm]odify
 mongodump
 mongorestore
@@ -235,6 +238,7 @@ NADs
 [Nn]amespaces
 Nano
 [Nn]etboot
+netdevice
 Netlify
 netlink
 Netplan
@@ -369,6 +373,8 @@ Spectro Cloud
 Splunk
 SRE
 SREs
+(?i)SRIOV
+sriovnetwork
 [Ss]torageClass
 struct
 structs
