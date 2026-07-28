@@ -170,6 +170,8 @@ JFrog
 journald
 jq
 jumpbox
+jump box
+jump host
 [Kk]3s
 Kai
 Kairos
