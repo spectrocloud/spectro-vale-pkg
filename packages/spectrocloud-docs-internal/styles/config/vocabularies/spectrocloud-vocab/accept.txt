@@ -437,6 +437,8 @@ UIDs
 Unattend
 [Uu]ncommented
 [Uu]ncommenting
+[Uu]ncordon
+[Uu]ncordons
 [Uu]ncheck
 uncomment
 [Uu]nencrypted
@@ -485,6 +487,7 @@ VNets
 VPC
 VPCs
 vSphere
+vSwitch
 Vultr
 wodim
 WordPress
