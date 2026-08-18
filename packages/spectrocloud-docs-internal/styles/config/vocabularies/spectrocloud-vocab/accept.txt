@@ -172,6 +172,7 @@ jq
 jumpbox
 jump box
 jump host
+JWTs?
 [Kk]3s
 Kai
 Kairos
