@@ -175,6 +175,7 @@ jump host
 [Kk]3s
 Kai
 Kairos
+Kapa
 Kimi
 Karpenter
 kCh
