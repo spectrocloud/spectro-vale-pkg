@@ -227,7 +227,9 @@ MinIO
 [Mm]itigation
 [Mm]itigations
 mlxconfig
+[Mm]ockup
 [Mm]odify
+[Mm]ultimodal
 mongodump
 mongorestore
 [Mm]ultiline
@@ -319,6 +321,7 @@ PVC
 PVCs
 [Qq]uiesce
 [Qq]uiescing
+Qwen
 Rackmount
 readme
 README
