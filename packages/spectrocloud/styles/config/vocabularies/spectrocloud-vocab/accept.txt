@@ -311,6 +311,7 @@ preboot
 [Pp]repended
 [Pp]repopulate
 [Pp]repopulated
+[Pp]resigned
 [Pp]rioritizer
 [Pp]rioritizers
 Prodimage
