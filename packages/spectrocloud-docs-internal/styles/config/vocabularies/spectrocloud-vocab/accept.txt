@@ -172,9 +172,11 @@ jq
 jumpbox
 jump box
 jump host
+JWTs?
 [Kk]3s
 Kai
 Kairos
+Kapa
 Kimi
 Karpenter
 kCh
@@ -226,7 +228,9 @@ MinIO
 [Mm]itigation
 [Mm]itigations
 mlxconfig
+[Mm]ockup
 [Mm]odify
+[Mm]ultimodal
 mongodump
 mongorestore
 [Mm]ultiline
@@ -318,6 +322,7 @@ PVC
 PVCs
 [Qq]uiesce
 [Qq]uiescing
+Qwen
 Rackmount
 readme
 README
