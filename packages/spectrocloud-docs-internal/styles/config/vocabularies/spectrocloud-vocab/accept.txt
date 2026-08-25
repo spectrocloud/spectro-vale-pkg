@@ -10,6 +10,7 @@ AIWorkload
 AIWorkloads
 AKS
 [Aa]lertmanager
+[Aa]llowlist
 Altra
 AMI
 AMIs
