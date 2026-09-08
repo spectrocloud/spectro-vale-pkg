@@ -34,6 +34,7 @@ Astra Trident
 Autosupport
 Autounattend
 Avi
+Aviz
 AZs
 balenaEtcher
 Bitnami
@@ -64,6 +65,10 @@ ClusterRoleBindings
 CNAME
 CNAMEs
 CNIs
+[Cc]olocate
+[Cc]olocated
+[Cc]olocating
+[Cc]olocation
 [Cc]onfig
 [Cc]onfigs
 ConfigMap
