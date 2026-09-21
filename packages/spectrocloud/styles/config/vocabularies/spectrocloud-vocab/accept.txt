@@ -110,6 +110,7 @@ Dockerfile
 Dqlite
 Earthfile
 ECRs
+[Ee]num
 EKS
 ELRepo
 [Ee]nablement
