@@ -44,6 +44,7 @@ bool
 [Bb]ooleans
 bootable
 [Bb]ootloader
+Broadcom
 Btrfs
 Busybox
 CA
@@ -109,6 +110,7 @@ Dockerfile
 Dqlite
 Earthfile
 ECRs
+[Ee]num
 EKS
 ELRepo
 [Ee]nablement
