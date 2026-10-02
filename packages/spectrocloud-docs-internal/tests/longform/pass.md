@@ -19,3 +19,7 @@ ping -c 3 10.10.162.130
 arping -c 3 10.10.162.130
 
 arp -a
+
+sh -c 'echo hello'
+
+bash -c 'echo hello'
