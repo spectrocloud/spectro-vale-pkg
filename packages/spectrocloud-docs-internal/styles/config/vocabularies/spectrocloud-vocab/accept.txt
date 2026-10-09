@@ -121,6 +121,7 @@ Epyc
 ESXi
 etcd
 ethernet
+Everpure
 [Ee]xecute
 eXtented
 [Ff]ailover
