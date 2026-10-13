@@ -48,6 +48,7 @@ Broadcom
 Btrfs
 Busybox
 CA
+cAdvisor
 CAs
 Caddy
 camelCase
@@ -86,9 +87,11 @@ CronJob
 CronJobs
 Crossplane
 Crypto
+Csi
 CSIs
 [Cc]utover
 CVEs
+[Cc]yberattacks?
 Cybersecurity
 Cyber
 [Dd]ata center
@@ -123,7 +126,7 @@ etcd
 ethernet
 Everpure
 [Ee]xecute
-eXtented
+eXtended
 [Ff]ailover
 Falco
 fapolicyd
@@ -146,6 +149,7 @@ goroutines
 GPU
 GPUs
 [Gg]rafana
+GRand
 [Hh]arbor
 [Hh]ardcoded
 HAProxy
@@ -206,6 +210,7 @@ Kubernetes NFS Subdir External Provisioner
 Kubevious
 KubeVirt
 Kubewatch
+Kvdb
 Kyverno
 L2
 Langchain
@@ -239,6 +244,7 @@ MinIO
 mlxconfig
 [Mm]ockup
 [Mm]odify
+[Mm]ulticast
 [Mm]ultimodal
 mongodump
 mongorestore
@@ -301,6 +307,7 @@ PCIe
 PDB
 PDBs
 pfSense
+[Pp]laintext
 [Pp]luggable
 Podman
 Portworx
@@ -349,7 +356,7 @@ renegotiations
 Repo
 [Rr]esizer
 restic
-[Rr]etrigger
+[Rr]etrigger(ed)?
 [Rr]eusability
 rhel
 RHEL
@@ -461,7 +468,7 @@ uncomment
 [Uu]nlink
 [Uu]nlinking
 [Uu]nmanaged
-[Uu]nmount
+[Uu]nmount(able)?
 [Uu]nregister
 unsecure
 [Uu]nshipped
@@ -512,6 +519,7 @@ wpa_supplicant
 Xeon
 Xen
 XenServer
+xhigh
 zlib
 Zot
 Zstandard
