@@ -87,7 +87,7 @@ CronJob
 CronJobs
 Crossplane
 Crypto
-[Cc]si
+(?i)Csi
 CSIs
 [Cc]utover
 CVEs
@@ -210,7 +210,7 @@ Kubernetes NFS Subdir External Provisioner
 Kubevious
 KubeVirt
 Kubewatch
-[Kk]vdb
+(?i)Kvdb
 Kyverno
 L2
 Langchain
