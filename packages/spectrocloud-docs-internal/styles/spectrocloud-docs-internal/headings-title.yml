@@ -5,9 +5,12 @@ extends: existence
 message: "Avoid using a noun that starts with an -ing in headings. Your heading starts with a word ending in '%s'."
 level: error
 scope: heading
+# The lookahead skips "Operating System" headings, where "Operating" is part of a noun, while still flagging gerunds
+# such as "Operating Clusters". Exceptions match the first word only.
 raw:
-  - "^\\b\\w+ing\\b"
+  - "^\\b\\w+ing\\b(?!\\s+[Ss]ystems?\\b)"
 exceptions:
   - "Breaking"
   - "Breaking Changes"
+  - "Networking"
   - "Troubleshooting"

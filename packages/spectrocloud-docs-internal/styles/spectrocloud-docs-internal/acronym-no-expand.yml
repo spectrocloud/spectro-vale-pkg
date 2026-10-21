@@ -30,7 +30,6 @@ tokens: # All uppercase (not camel case) terms added below must also be added to
   - 'platform[- ]as[- ]a[- ]service\s*\(PaaS\)'
   - 'transmission control protocol\s*\(TCP\)'
   - 'software[- ]as[- ]a[- ]service\s*\(SaaS\)'
-  - 'te(xt|rminal) user interface\s*\(TUI\)'
   - 'user datagram protocol\s*\(UDP\)'
   - 'user interface\s*\(UI\)'
   - 'virtual machine\s*\(VM\)'
