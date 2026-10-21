@@ -87,7 +87,7 @@ CronJob
 CronJobs
 Crossplane
 Crypto
-Csi
+(?i)Csi
 CSIs
 [Cc]utover
 CVEs
@@ -373,6 +373,7 @@ runtimes
 Ryzen
 [Ss]andboxed
 [Ss]anitization
+(?i)SANs
 SBOMs
 [Ss]chedulable
 [Ss]crollable
@@ -490,6 +491,7 @@ vCPU
 vCPUs
 Velero
 Vercel
+(?i)VFs
 vGPU
 vGPUs
 VHD
