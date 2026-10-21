@@ -64,6 +64,7 @@ exceptions:
   - (OIDC)
   - (OS)
   - (OSS)
+  - (OTP)
   - (PDF)
   - (PNG)
   - (POST)

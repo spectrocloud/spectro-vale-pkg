@@ -15,3 +15,5 @@ Use the following steps to resolve the Virtual Private Cloud (VPC) error.
 The kubeconfig authenticates you through OpenID Connect (OIDC) as a specific user.
 
 Palette supports Cluster API Provider AWS (CAPA) and Cluster API Provider CloudStack (CAPC).
+
+The token contains a one-time password (OTP) that expires after two minutes.
