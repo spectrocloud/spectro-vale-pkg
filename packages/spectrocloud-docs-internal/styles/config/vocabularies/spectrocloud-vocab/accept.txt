@@ -477,6 +477,7 @@ unsecure
 [Uu]npause
 untrusted
 Upbound
+(?i)uplinks?
 upsize
 URIs
 USBGuard
