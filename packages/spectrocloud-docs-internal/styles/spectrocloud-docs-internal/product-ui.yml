@@ -6,10 +6,10 @@ message: "Use the approved UI element term '%s' instead of '%s'"
 ignorecase: true
 level: error
 swap:
-  "navbar": "Main Menu"
-  "nav bar": "Main Menu"
+  "navbar": "left main menu"
+  "nav bar": "left main menu"
   "user dropdown": "User Menu"
-  "nested navbar": "<feature> Menu"
-  "nested nav bar": "<feature> Menu"
-  "three dots": "three-dot Menu"
-  "dropdown menu": "drop-down Menu"
+  "nested navbar": "<Feature> menu"
+  "nested nav bar": "<Feature> menu"
+  "three dots": "three-dot menu"
+  "dropdown menu": "drop-down menu"
