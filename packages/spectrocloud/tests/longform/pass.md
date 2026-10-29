@@ -27,3 +27,9 @@ bash -c 'echo hello'
 ssh -i key.pem ubuntu@192.0.2.10
 
 scp -i key.pem notes.txt ubuntu@192.0.2.10:/tmp/
+
+set -euo pipefail
+
+set -o errexit
+
+command -v trust
