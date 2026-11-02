@@ -2,6 +2,7 @@
 (?i)We
 [Aa]dmin
 addon
+(?i)Affero
 [Aa]gentic
 [Aa]irgap
 [Aa]irgapped
@@ -19,6 +20,7 @@ Ansible
 Anthropic('s)?
 Antrea
 Anya
+API's
 APIs
 ARNs
 Artifactory
@@ -337,10 +339,12 @@ PV
 PVs
 PVC
 PVCs
+QA's
 [Qq]uiesce
 [Qq]uiescing
 Qwen
 Rackmount
+(?i)reachability
 readme
 README
 [Rr]ebalance
@@ -354,6 +358,7 @@ renegotiations
 [Rr]epave
 [Rr]epavement
 Repo
+(?i)Resizable
 [Rr]esizer
 restic
 [Rr]etrigger(ed)?
@@ -518,6 +523,7 @@ wodim
 WordPress
 wordpress_port
 wordpress_replica
+(?i)workspace's
 wpa_supplicant
 Xeon
 Xen
