@@ -134,6 +134,7 @@ eXtended
 Falco
 fapolicyd
 Fargate
+(?i)favicons?
 [Ff]ilepath
 [Ff]ilepaths
 firewalld
@@ -226,6 +227,7 @@ LLM
 LLMs
 Loadbalancer
 Local UI
+(?i)lookups
 Lua
 Luet
 MAAS
@@ -259,6 +261,7 @@ NADs
 [Nn]ameserver
 [Nn]ameservers
 [Nn]amespace
+(?i)namespaced
 [Nn]amespaces
 Nano
 [Nn]etboot
