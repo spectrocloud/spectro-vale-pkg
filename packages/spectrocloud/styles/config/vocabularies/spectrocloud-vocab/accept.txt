@@ -227,6 +227,7 @@ LLM
 LLMs
 Loadbalancer
 Local UI
+(?i)lookups
 Lua
 Luet
 MAAS
