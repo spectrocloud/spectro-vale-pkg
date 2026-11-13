@@ -33,3 +33,7 @@ set -euo pipefail
 set -o errexit
 
 command -v trust
+
+read -r -p "Username: " USER_NAME
+
+read -r -s -p "Password: " PASSWORD
