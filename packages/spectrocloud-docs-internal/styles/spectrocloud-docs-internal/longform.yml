@@ -37,3 +37,5 @@ exceptions:
     - set([\s ]{1,}[-][a-zA-Z]{1,3})+
     - command([\s ]{1,}[-][a-zA-Z]{1,3})+
     - read([\s ]{1,}[-][a-zA-Z]{1,3})+
+    - sshd([\s ]{1,}[-][a-zA-Z]{1,3})+
+    - auditctl([\s ]{1,}[-][a-zA-Z]{1,3})+

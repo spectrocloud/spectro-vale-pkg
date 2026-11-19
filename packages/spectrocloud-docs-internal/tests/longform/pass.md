@@ -37,3 +37,7 @@ command -v trust
 read -r -p "Username: " USER_NAME
 
 read -r -s -p "Password: " PASSWORD
+
+sshd -T
+
+auditctl -l
