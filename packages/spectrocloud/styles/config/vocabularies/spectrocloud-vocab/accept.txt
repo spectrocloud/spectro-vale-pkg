@@ -113,6 +113,7 @@ Dex
 distroless
 Dockerfile
 Dqlite
+Dragonball
 Earthfile
 ECRs
 (?i)Edgehost
@@ -196,6 +197,7 @@ Kairos
 Kapa
 Kimi
 Karpenter
+(?i)kata
 kCh
 Keycloak
 [Kk]gateway
