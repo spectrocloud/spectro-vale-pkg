@@ -28,6 +28,7 @@ Astra
 Astra Trident
 [Aa]ttacher
 [Aa]uditable
+[Aa]utoconfiguration
 [Aa]utoincrementing
 [Aa]utoinstall
 [Aa]utoscale
@@ -230,6 +231,7 @@ LLMs
 Loadbalancer
 Local UI
 (?i)lookups
+[Ll]owercased
 Lua
 Luet
 MAAS
