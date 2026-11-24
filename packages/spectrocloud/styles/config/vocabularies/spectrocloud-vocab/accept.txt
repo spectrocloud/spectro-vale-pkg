@@ -26,6 +26,7 @@ ARNs
 Artifactory
 Astra
 Astra Trident
+Atlassian
 [Aa]ttacher
 [Aa]uditable
 [Aa]utoconfiguration
@@ -539,5 +540,6 @@ XenServer
 xhigh
 zlib
 Zot
+[Zz]sh
 Zstandard
 Zypper
