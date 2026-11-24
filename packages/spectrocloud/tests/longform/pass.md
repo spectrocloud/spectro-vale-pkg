@@ -41,3 +41,7 @@ read -r -s -p "Password: " PASSWORD
 sshd -T
 
 auditctl -l
+
+security add-trusted-cert -r trustRoot -k ~/Library/Keychains/login.keychain-db ca.crt
+
+security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain ca.crt
