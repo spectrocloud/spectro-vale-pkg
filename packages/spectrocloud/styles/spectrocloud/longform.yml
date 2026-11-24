@@ -39,3 +39,6 @@ exceptions:
     - read([\s ]{1,}[-][a-zA-Z]{1,3})+
     - sshd([\s ]{1,}[-][a-zA-Z]{1,3})+
     - auditctl([\s ]{1,}[-][a-zA-Z]{1,3})+
+    # security add-trusted-cert has no long-form flags. The token matches its 'cert -r' and 'trustRoot -k' parts.
+    - cert([\s ]{1,}[-][a-zA-Z]{1,3})+
+    - trustRoot([\s ]{1,}[-][a-zA-Z]{1,3})+
